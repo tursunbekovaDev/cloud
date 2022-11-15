@@ -38,7 +38,7 @@ a {
   box-shadow: 0 5px 30px rgba(0, 0, 0, 0.1);
   border-radius: 8px;
   width: 270px;
-  height: 170px;
+  height: 150px;
   position: absolute;
   margin-top: 170px;
 }
@@ -48,7 +48,7 @@ a {
   text-align: center;
 }
 #feature .feature--more__support--card1 p {
-  font-size: 12px;
+  font-size: 17px;
   color: #101010;
   text-align: center;
   padding: 20px 0;
@@ -72,7 +72,7 @@ a {
   box-shadow: 0 5px 30px rgba(0, 0, 0, 0.1);
   border-radius: 8px;
   width: 270px;
-  height: 170px;
+  height: 150px;
   position: absolute;
   margin-top: 170px;
 }
@@ -82,10 +82,9 @@ a {
   text-align: center;
 }
 #feature .feature--more__manage--card2 p {
-  font-size: 12px;
+  font-size: 17px;
   color: #101010;
   text-align: center;
-  padding: 20px 0;
   padding: 33px 0;
 }
 #feature .feature--more__manage--card2 a {
@@ -107,7 +106,7 @@ a {
   box-shadow: 0 5px 30px rgba(0, 0, 0, 0.1);
   border-radius: 8px;
   width: 270px;
-  height: 170px;
+  height: 150px;
   position: absolute;
   margin-top: 170px;
 }
@@ -117,7 +116,7 @@ a {
   text-align: center;
 }
 #feature .feature--more__budget--card3 p {
-  font-size: 12px;
+  font-size: 17px;
   color: #101010;
   text-align: center;
   padding: 20px 0;
@@ -245,5 +244,3 @@ a {
   text-align: center;
   width: 50%;
 }
-
-/*# sourceMappingURL=style.css.map */
