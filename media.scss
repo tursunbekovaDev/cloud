@@ -454,6 +454,168 @@
   }
 }
 @media (max-width: 450px){
+  #feature {
+    padding: 20px 0 130px 0;
+
+    .feature {
+      &--center {
+        font-size: 25px;
+      }
+
+      &--more {
+        &__support {
+          &--card1 {
+            padding: 15px 20px;
+            width: 70px;
+            height: 80px;
+            margin-top: 65px;
+
+            h1 {
+              font-size: 8px;
+            }
+
+            p {
+              font-size: 7px;
+              padding: 10px 0;
+            }
+
+            a {
+              font-size: 8px;
+            }
+          }
+        }
+
+        &__manage {
+          &--card2 {
+            padding: 15px 20px;
+            width: 70px;
+            height: 80px;
+            margin-top: 65px;
+
+            h1 {
+              font-size: 8px;
+            }
+
+            p {
+              font-size: 7px;
+              padding: 10px 0;
+            }
+
+            a {
+              font-size: 8px;
+            }
+          }
+        }
+
+        &__budget {
+          &--card3 {
+            padding: 15px 20px;
+            width: 70px;
+            height: 80px;
+            margin-top: 65px;
+
+            h1 {
+              font-size: 8px;
+            }
+
+            p {
+              font-size: 7px;
+              padding: 10px 0;
+            }
+
+            a {
+              font-size: 8px;
+            }
+          }
+        }
+      }
+    }
+  }
+  #techno {
+    .techno {
+      &--tittle {
+        font-size: 25px;
+      }
+
+      &--servers {
+        &__cloud {
+          h1 {
+            font-size: 70px;
+          }
+
+          .icon {
+            font-size: 30px;
+            padding: 42px 0 0 0
+          }
+
+          h2 {
+            font-size: 12px;
+          }
+
+          h3 {
+            font-size: 8px;
+          }
+        }
+
+        &__secure {
+          h1 {
+            font-size: 70px;
+          }
+
+          .icon {
+            font-size: 30px;
+            padding: 42px 0 0 0
+          }
+
+          h2 {
+            font-size: 12px;
+          }
+
+          h3 {
+            font-size: 8px;
+          }
+        }
+
+        &__pdf {
+          h1 {
+            font-size: 70px;
+          }
+
+          .icon {
+            font-size: 30px;
+            padding: 42px 0 0 0
+          }
+
+          h2 {
+            font-size: 12px;
+          }
+
+          h3 {
+            font-size: 9px;
+          }
+        }
+
+        &__csv {
+          h1 {
+            font-size: 70px;
+          }
+
+          .icon {
+            font-size: 30px;
+            padding: 42px 0 0 0
+          }
+
+          h2 {
+            font-size: 12px;
+          }
+
+          h3 {
+            font-size: 8px;
+          }
+        }
+      }
+    }
+  }
 }
 @media (max-width: 414px){
 }
