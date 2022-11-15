@@ -10,6 +10,74 @@
       }
     }
   }
+  #feature .feature--more__support--card1 {
+    height: 125px;
+  }
+  #feature .feature--more__manage--card2 {
+    height: 125px;
+  }
+  #feature .feature--more__budget--card3 {
+    height: 125px;
+  }
+  #techno .techno--servers__cloud {
+    .icon {
+      padding: 55px 0 0 0;
+    }
+
+    h3 {
+      font-size: 10px;
+      width: 60%;
+    }
+
+    h2 {
+      padding: 10px 0;
+    }
+  }
+  #techno .techno--servers__secure {
+    .icon {
+      padding: 55px 0 0 0;
+    }
+
+    h3 {
+      font-size: 10px;
+      width: 60%;
+    }
+
+    h2 {
+      padding: 10px 0;
+    }
+  }
+  #techno .techno--servers__pdf {
+    .icon {
+      padding: 55px 0 0 0;
+    }
+
+    h3 {
+      font-size: 10px;
+      width: 60%;
+    }
+
+    h2 {
+      padding: 10px 0;
+    }
+  }
+  #techno .techno--servers__csv {
+    .icon {
+      padding: 55px 0 0 0;
+    }
+
+    h3 {
+      font-size: 10px;
+      width: 60%;
+    }
+
+    h2 {
+      padding: 10px 0;
+    }
+  }
+  #techno {
+    padding: 0 0 100px 0;
+  }
 }
 
 @media (max-width: 1024px) {
@@ -34,6 +102,59 @@
       }
     }
   }
+  #feature {
+    .feature {
+      &--more {
+        &__support {
+          img {
+            width: 90%;
+          }
+
+          &--card1 {
+            width: 222px;
+            height: 143px;
+            margin-top: 144px;
+
+            p {
+              padding: 8px 0;
+            }
+          }
+        }
+
+        &__manage {
+          img {
+            width: 90%;
+          }
+
+          &--card2 {
+            width: 222px;
+            height: 143px;
+            margin-top: 144px;
+
+            p {
+              padding: 8px 0;
+            }
+          }
+        }
+
+        &__budget {
+          img {
+            width: 90%;
+          }
+
+          &--card3 {
+            width: 222px;
+            height: 143px;
+            margin-top: 144px;
+
+            p {
+              padding: 8px 0;
+            }
+          }
+        }
+      }
+    }
+  }
   #software {
     .software {
       &--cloub {
@@ -43,8 +164,10 @@
   }
 }
 
+
 @media (max-width: 992px) {
 }
+
 
 @media (max-width: 768px) {
   #stay {
@@ -132,6 +255,52 @@
           &--pipang {
             font-size: 11px;
             margin: 13px 0 0 0;
+          }
+        }
+      }
+    }
+  }
+  #feature{
+    .feature{
+      &--more{
+        &__support{
+          &--card1{
+            width: 145px;
+            height: 100px;
+            margin-top: 114px;
+            h1{
+              font-size: 15px;
+            }
+            p{
+              font-size: 13px;
+            }
+          }
+        }
+        &__manage{
+          &--card2{
+            width: 145px;
+            height: 100px;
+            margin-top: 114px;
+            h1{
+              font-size: 15px;
+            }
+            p{
+              font-size: 13px;
+            }
+          }
+        }
+        &__budget{
+          &--card3{
+            width: 145px;
+            height: 100px;
+            margin-top: 114px;
+            h1{
+              font-size: 14px;
+            }
+            p{
+              font-size: 13px;
+              padding: 9px 0;
+            }
           }
         }
       }
@@ -231,6 +400,9 @@
 
     }
   }
+  #feature {
+    padding: 0 0 160px;
+  }
   #software {
     .software {;
 
@@ -270,13 +442,318 @@
       }
     }
   }
+  #feature .feature--more__support--card1 {
+    width: 95px;
+    height: 95px;
+    margin-top: 80px;
+
+    h1 {
+      font-size: 11px;
+    }
+
+    p {
+      font-size: 10px;
+      padding: 5px 0;
+    }
+  }
+  #feature .feature--more__manage--card2 {
+    width: 95px;
+    height: 95px;
+    margin-top: 80px;
+
+    h1 {
+      font-size: 12px;
+    }
+
+    p {
+      font-size: 10px;
+      padding: 5px 0;
+    }
+  }
+  #feature .feature--more__budget--card3 {
+    width: 95px;
+    height: 95px;
+    margin-top: 80px;
+
+    h1 {
+      font-size: 11px;
+    }
+
+    p {
+      font-size: 10px;
+      padding: 5px 0;
+    }
+  }
+  #techno {
+    .techno {
+      &--servers {
+        align-items: start;
+
+        &__cloud {
+          .icon {
+            font-size: 35px;
+            padding: 63px 0 0 0;
+          }
+
+          h2 {
+            font-size: 15px;
+          }
+
+          h3 {
+            padding: 10px 0 0 0;
+          }
+        }
+
+        &__secure {
+          .icon {
+            font-size: 35px;
+            padding: 63px 0 0 0;
+          }
+
+          h2 {
+            font-size: 15px;
+          }
+
+          h3 {
+            padding: 10px 0 0 0;
+          }
+        }
+
+        &__pdf {
+          .icon {
+            font-size: 35px;
+            padding: 63px 0 0 0;
+          }
+
+          h2 {
+            font-size: 15px;
+          }
+
+          p {
+            font-size: 10px;
+            padding: 5px 0;
+          }
+        }
+      }
+    }
+  }
 }
 
+
 @media (max-width: 450px) {
+  #feature {
+    padding: 20px 0 130px 0;
+
+    .feature {
+      &--center {
+        font-size: 25px;
+      }
+
+      &--more {
+        &__support {
+          &--card1 {
+            padding: 15px 20px;
+            width: 70px;
+            height: 80px;
+            margin-top: 65px;
+
+            h1 {
+              font-size: 8px;
+            }
+
+            p {
+              font-size: 7px;
+              padding: 10px 0;
+            }
+
+            a {
+              font-size: 8px;
+            }
+          }
+        }
+
+        &__manage {
+          &--card2 {
+            padding: 15px 20px;
+            width: 70px;
+            height: 80px;
+            margin-top: 65px;
+
+            h1 {
+              font-size: 8px;
+            }
+
+            p {
+              font-size: 7px;
+              padding: 10px 0;
+            }
+
+            a {
+              font-size: 8px;
+            }
+          }
+        }
+
+        &__budget {
+          &--card3 {
+            padding: 15px 20px;
+            width: 70px;
+            height: 80px;
+            margin-top: 65px;
+
+            h1 {
+              font-size: 8px;
+            }
+
+            p {
+              font-size: 7px;
+              padding: 10px 0;
+            }
+
+            a {
+              font-size: 8px;
+            }
+          }
+        }
+      }
+    }
+  }
+  #techno {
+    .techno {
+      &--tittle {
+        font-size: 25px;
+      }
+
+      &--servers {
+        &__cloud {
+          h1 {
+            font-size: 70px;
+          }
+
+          .icon {
+            font-size: 30px;
+            padding: 42px 0 0 0
+          }
+
+          h2 {
+            font-size: 12px;
+          }
+
+          h3 {
+            font-size: 8px;
+          }
+        }
+
+        &__secure {
+          h1 {
+            font-size: 70px;
+          }
+
+          .icon {
+            font-size: 30px;
+            padding: 42px 0 0 0
+          }
+
+          h2 {
+            font-size: 12px;
+          }
+
+          h3 {
+            font-size: 8px;
+          }
+        }
+
+        &__pdf {
+          h1 {
+            font-size: 70px;
+          }
+
+          .icon {
+            font-size: 30px;
+            padding: 42px 0 0 0
+          }
+
+          h2 {
+            font-size: 12px;
+          }
+
+          h3 {
+            font-size: 9px;
+          }
+        }
+
+        &__csv {
+          h1 {
+            font-size: 70px;
+          }
+
+          .icon {
+            font-size: 30px;
+            padding: 42px 0 0 0
+          }
+
+          h2 {
+            font-size: 12px;
+          }
+
+          h3 {
+            font-size: 8px;
+          }
+        }
+      }
+    }
+  }
 }
 
 @media (max-width: 414px) {
+  #feature {
+    .feature {
+      &--more {
+        &__support {
+          &--card1 {
+            padding: 9px 10px;
+            width: 76px;
+            height: 65px;
+            margin-top: 58px;
 
+            p {
+              padding: 7px 0;
+            }
+          }
+        }
+
+        &__manage {
+          &--card2 {
+            padding: 9px 10px;
+            width: 76px;
+            height: 65px;
+            margin-top: 58px;
+
+            p {
+              padding: 7px 0;
+            }
+          }
+        }
+
+        &__budget {
+          &--card3 {
+            padding: 9px 10px;
+            width: 76px;
+            height: 65px;
+            margin-top: 58px;
+
+            h1 {
+              font-size: 7px;
+            }
+
+            p {
+              padding: 7px 0;
+            }
+          }
+        }
+      }
+    }
+  }
 
 }
 
@@ -342,6 +819,87 @@
       }
     }
   }
+  #techno {
+    .techno {
+      &--servers {
+        &__cloud {
+          h1 {
+            font-size: 55px;
+          }
+
+          .icon {
+            font-size: 23px;
+          }
+
+          h2 {
+            font-size: 10px;
+          }
+
+          h3 {
+            font-size: 7px;
+            width: 80%;
+          }
+        }
+
+        &__secure {
+          h1 {
+            font-size: 55px;
+          }
+
+          .icon {
+            font-size: 23px;
+          }
+
+          h2 {
+            font-size: 10px;
+          }
+
+          h3 {
+            font-size: 7px;
+            width: 80%;
+          }
+        }
+
+        &__pdf {
+          h1 {
+            font-size: 55px;
+          }
+
+          .icon {
+            font-size: 23px;
+          }
+
+          h2 {
+            font-size: 10px;
+          }
+
+          h3 {
+            font-size: 7px;
+            width: 80%;
+          }
+        }
+
+        &__csv {
+          h1 {
+            font-size: 55px;
+          }
+
+          .icon {
+            font-size: 23px;
+          }
+
+          h2 {
+            font-size: 10px;
+          }
+
+          h3 {
+            font-size: 7px;
+            width: 80%;
+          }
+        }
+      }
+    }
+  }
 }
 
 @media (max-width: 375px) {
@@ -362,12 +920,193 @@
   #contact {
     .contact {
       &--help {
-        &__request{
-        &--inputs {
-          width: 300px;
+        &__request {
+          &--inputs {
+            width: 300px;
+          }
         }
-      }}
+      }
+    }
+  }
+  feature {
+    padding: 20px 0 90px 0;
+
+    .feature {
+      &--more {
+        flex-direction: column;
+
+        &__support {
+          img {
+            width: 70%;
+          }
+
+          &--card1 {
+            padding: 6px 5px;
+            width: 165px;
+            height: 55px;
+            margin-top: 90px;
+
+            h1 {
+              font-size: 9px;
+            }
+
+            p {
+              font-size: 8px;
+              padding: 8px 0;
+            }
+
+            a {
+              font-size: 6px;
+            }
+          }
+        }
+
+        &__manage {
+          padding: 30px 0;
+
+          img {
+            width: 70%;
+          }
+
+          &--card2 {
+            padding: 6px 5px;
+            width: 165px;
+            height: 55px;
+            margin-top: 90px;
+
+            h1 {
+              font-size: 9px;
+            }
+
+            p {
+              font-size: 8px;
+              padding: 8px 0;
+            }
+
+            a {
+              font-size: 6px;
+            }
+          }
+        }
+
+        &__budget {
+          img {
+            width: 70%;
+          }
+
+          &--card3 {
+            padding: 6px 5px;
+            width: 165px;
+            height: 55px;
+            margin-top: 90px;
+
+            h1 {
+              font-size: 9px;
+            }
+
+            p {
+              font-size: 8px;
+              padding: 8px 0;
+            }
+
+            a {
+              font-size: 6px;
+            }
+          }
+        }
+      }
     }
   }
 
+  #techno {
+    padding: 0 0 50px 0;
+
+    .techno {
+      &--servers {
+        flex-direction: column;
+        align-items: center;
+
+        &__cloud {
+          h1 {
+            font-size: 70px;
+          }
+
+          .icon {
+            font-size: 30px;
+          }
+
+          h2 {
+            font-size: 13px;
+          }
+
+          h3 {
+            font-size: 10px;
+            width: 60%;
+          }
+        }
+
+        &__secure {
+          padding: 30px 0;
+
+          h1 {
+            font-size: 70px;
+          }
+
+          .icon {
+            font-size: 30px;
+          }
+
+          h2 {
+            font-size: 13px;
+          }
+
+          h3 {
+            font-size: 10px;
+            width: 60%;
+          }
+        }
+
+        &__pdf {
+          padding: 0 0 30px 0;
+
+          h1 {
+            font-size: 70px;
+          }
+
+          .icon {
+            font-size: 30px;
+          }
+
+          h2 {
+            font-size: 13px;
+          }
+
+          h3 {
+            font-size: 10px;
+            width: 60%;
+          }
+        }
+
+        &__csv {
+          h1 {
+            font-size: 70px;
+          }
+
+          .icon {
+            font-size: 30px;
+          }
+
+          h2 {
+            font-size: 13px;
+          }
+
+          h3 {
+            font-size: 10px;
+            width: 60%;
+          }
+        }
+      }
+    }
+  }
 }
+
