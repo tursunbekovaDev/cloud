@@ -102,6 +102,31 @@
       }
     }
   }
+  #budget {
+    .budget {
+      &--water {
+        img {
+          width: 402px;
+          height: 273px;
+          border-radius: 6px;
+        }
+      }
+
+      &--use {
+        &__dox {
+          font-size: 12px;
+          width: 85%;
+
+        }
+
+        &__work {
+          padding: 23px 0;
+          font-size: 30px;
+          line-height: 33px;
+        }
+      }
+    }
+  }
   #feature {
     .feature {
       &--more {
@@ -164,10 +189,37 @@
   }
 }
 
-
 @media (max-width: 992px) {
-}
+  #hero {
+    .hero {
+      &--menu {
+        width: 60%;
 
+      }
+    }
+  }
+  #project {
+    .project {
+      &--budget {
+        &__btns:hover {
+          width: 155px;
+          height: 54px;
+        }
+
+        &__btns {
+          width: 139px;
+          height: 45px
+        }
+      }
+
+      &__circle {
+        font-size: 70px;
+      }
+    }
+  }
+
+
+}
 
 @media (max-width: 768px) {
   #stay {
@@ -306,7 +358,77 @@
       }
     }
   }
+  #hero {
+    .hero {
+      &--general {
+        &__btn {
+          width: 75px;
+          height: 31px;
+          margin: 0 -4px;
+        }
 
+      }
+
+      &--menu {
+        width: 60%;
+        font-size: 12px;
+
+      }
+
+      &--cloud {
+        width: 25%;
+        font-size: 15px;
+
+      }
+
+      padding: 68px 0 0 0;
+
+    }
+  }
+  #project {
+    height: 465px;
+
+    .project {
+      &--budget {
+        &__circle {
+          font-size: 60px;
+
+        }
+      }
+    }
+  }
+  #budget {
+    .budget {
+      &--use {
+        &__fox {
+          font-size: 13px;
+        }
+
+        &__dox {
+          font-size: 10px;
+          width: 95%;
+        }
+
+        &__work {
+          padding: 34px 0;
+          font-size: 25px;
+        }
+      }
+
+      &--water {
+        ion-icon {
+          width: 47px;
+          height: 88px;
+          margin: 0 0 0 -26px
+        }
+
+        img {
+          width: 277px;
+          height: 230px;
+        }
+      }
+    }
+  }
 }
 
 @media (max-width: 576px) {
@@ -537,168 +659,288 @@
       }
     }
   }
-}
+  #hero {
+    .hero {
+      padding: 25px 0 0 0;
 
+      &--general {
+        img {
+          width: 20px;
+        }
 
-@media (max-width: 450px) {
-  #feature {
-    padding: 20px 0 130px 0;
-
-    .feature {
-      &--center {
-        font-size: 25px;
+        &__btn {
+          width: 56px;
+          height: 26px;
+          margin: 0 -5px;
+        }
       }
 
-      &--more {
-        &__support {
-          &--card1 {
-            padding: 15px 20px;
-            width: 70px;
-            height: 80px;
-            margin-top: 65px;
+      &--menu {
+        width: 70%;
+        font-size: 9px;
+      }
 
-            h1 {
-              font-size: 8px;
+      &--cloud {
+        width: 25%;
+        font-size: 11px;
+      }
+    }
+  }
+  #budget {
+    .budget {
+      &--use {
+        &__dox {
+          font-size: 7px;
+          width: 95%;
+        }
+
+        &__work {
+          line-height: 23px;
+          padding: 3px 0;
+          font-size: 18px;
+        }
+      }
+
+      &--water {
+        ion-icon {
+          width: 30px;
+          margin: 0 -18px;
+        }
+
+        img {
+          width: 178px;
+          height: 158px
+        }
+      }
+    }
+  }
+  #project {
+    .project {
+      &--budget {
+        &__circle {
+          font-size: 50px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 450px) {
+    #feature {
+      padding: 20px 0 130px 0;
+
+      .feature {
+        &--center {
+          font-size: 25px;
+        }
+
+        &--more {
+          &__support {
+            &--card1 {
+              padding: 15px 20px;
+              width: 70px;
+              height: 80px;
+              margin-top: 65px;
+
+              h1 {
+                font-size: 8px;
+              }
+
+              p {
+                font-size: 7px;
+                padding: 10px 0;
+              }
+
+              a {
+                font-size: 8px;
+              }
             }
+          }
 
-            p {
-              font-size: 7px;
-              padding: 10px 0;
+          &__manage {
+            &--card2 {
+              padding: 15px 20px;
+              width: 70px;
+              height: 80px;
+              margin-top: 65px;
+
+              h1 {
+                font-size: 8px;
+              }
+
+              p {
+                font-size: 7px;
+                padding: 10px 0;
+              }
+
+              a {
+                font-size: 8px;
+              }
             }
+          }
 
-            a {
-              font-size: 8px;
+          &__budget {
+            &--card3 {
+              padding: 15px 20px;
+              width: 70px;
+              height: 80px;
+              margin-top: 65px;
+
+              h1 {
+                font-size: 8px;
+              }
+
+              p {
+                font-size: 7px;
+                padding: 10px 0;
+              }
+
+              a {
+                font-size: 8px;
+              }
             }
           }
         }
+      }
+    }
+    #techno {
+      .techno {
+        &--tittle {
+          font-size: 25px;
+        }
 
-        &__manage {
-          &--card2 {
-            padding: 15px 20px;
-            width: 70px;
-            height: 80px;
-            margin-top: 65px;
-
+        &--servers {
+          &__cloud {
             h1 {
-              font-size: 8px;
+              font-size: 70px;
             }
 
-            p {
-              font-size: 7px;
-              padding: 10px 0;
+            .icon {
+              font-size: 30px;
+              padding: 42px 0 0 0
             }
 
-            a {
+            h2 {
+              font-size: 12px;
+            }
+
+            h3 {
               font-size: 8px;
             }
           }
-        }
 
-        &__budget {
-          &--card3 {
-            padding: 15px 20px;
-            width: 70px;
-            height: 80px;
-            margin-top: 65px;
-
+          &__secure {
             h1 {
+              font-size: 70px;
+            }
+
+            .icon {
+              font-size: 30px;
+              padding: 42px 0 0 0
+            }
+
+            h2 {
+              font-size: 12px;
+            }
+
+            h3 {
               font-size: 8px;
             }
+          }
 
-            p {
-              font-size: 7px;
-              padding: 10px 0;
+          &__pdf {
+            h1 {
+              font-size: 70px;
             }
 
-            a {
+            .icon {
+              font-size: 30px;
+              padding: 42px 0 0 0
+            }
+
+            h2 {
+              font-size: 12px;
+            }
+
+            h3 {
+              font-size: 9px;
+            }
+          }
+
+          &__csv {
+            h1 {
+              font-size: 70px;
+            }
+
+            .icon {
+              font-size: 30px;
+              padding: 42px 0 0 0
+            }
+
+            h2 {
+              font-size: 12px;
+            }
+
+            h3 {
               font-size: 8px;
             }
           }
         }
       }
     }
-  }
-  #techno {
-    .techno {
-      &--tittle {
-        font-size: 25px;
+  #hero {
+    .hero {
+      &--cloud {
       }
 
-      &--servers {
-        &__cloud {
-          h1 {
-            font-size: 70px;
-          }
+      &--general {
+        display: none;
+      }
 
-          .icon {
-            font-size: 30px;
-            padding: 42px 0 0 0
-          }
+      &--menu {
+        display: none;
+      }
 
-          h2 {
-            font-size: 12px;
-          }
-
-          h3 {
-            font-size: 8px;
-          }
+    }
+  }
+  #budget {
+    .budget {
+      &--water {
+        ion-icon {
+          width: 53px;
+          margin: 0 -30px;
         }
 
-        &__secure {
-          h1 {
-            font-size: 70px;
-          }
+        img {
+          width: 295px;
+          height: 197px;
+        }
+      }
 
-          .icon {
-            font-size: 30px;
-            padding: 42px 0 0 0
-          }
+      display: flex;
+      flex-direction: column;
 
-          h2 {
-            font-size: 12px;
-          }
-
-          h3 {
-            font-size: 8px;
-          }
+      &--use {
+        &__dox {
+          font-size: 13px;
+          width: 100%
         }
 
-        &__pdf {
-          h1 {
-            font-size: 70px;
-          }
-
-          .icon {
-            font-size: 30px;
-            padding: 42px 0 0 0
-          }
-
-          h2 {
-            font-size: 12px;
-          }
-
-          h3 {
-            font-size: 9px;
-          }
+        &__work {
+          padding: 24px 0;
+          font-size: 28px
         }
+      }
+    }
+  }
+  #project {
+    height: 424px;
 
-        &__csv {
-          h1 {
-            font-size: 70px;
-          }
+    .project {
+      &--budget {
+        &__circle {
+          font-size: 40px
 
-          .icon {
-            font-size: 30px;
-            padding: 42px 0 0 0
-          }
-
-          h2 {
-            font-size: 12px;
-          }
-
-          h3 {
-            font-size: 8px;
-          }
         }
       }
     }
@@ -803,6 +1045,48 @@
           &--btn {
             margin: 0 0 0 79px;
           }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 375px) {
+}
+
+@media (max-width: 360px) {
+  #budget {
+    .budget {
+      &--use {
+        &__work {
+          padding: 9px 0;
+          font-size: 20px;
+        }
+      }
+    }
+  }
+  #stay {
+    .stay {
+      .swiper {
+        width: 205px;
+        height: 180px;
+      }
+    }
+  }
+}
+
+@media (max-width: 320px) {
+  #feature {
+    padding: 20px 0 90px 0;
+
+    .feature {
+      &--more {
+        flex-direction: column;
+
+        &__support {
+          img {
+            width: 70%;
+          }
 
           &--own {
             &__input {
@@ -900,23 +1184,6 @@
       }
     }
   }
-}
-
-@media (max-width: 375px) {
-}
-
-@media (max-width: 360px) {
-  #stay {
-    .stay {
-      .swiper {
-        width: 205px;
-        height: 180px;
-      }
-    }
-  }
-}
-
-@media (max-width: 320px) {
   #contact {
     .contact {
       &--help {
@@ -928,185 +1195,36 @@
       }
     }
   }
-  feature {
-    padding: 20px 0 90px 0;
-
-    .feature {
-      &--more {
-        flex-direction: column;
-
-        &__support {
-          img {
-            width: 70%;
-          }
-
-          &--card1 {
-            padding: 6px 5px;
-            width: 165px;
-            height: 55px;
-            margin-top: 90px;
-
-            h1 {
-              font-size: 9px;
-            }
-
-            p {
-              font-size: 8px;
-              padding: 8px 0;
-            }
-
-            a {
-              font-size: 6px;
-            }
-          }
+  #project{
+    .project{
+      &--budget{
+        &__circle{
+          font-size: 30px;
         }
+        &__pro{
+          margin: 33px 0;
+          font-size: 12px;
 
-        &__manage {
-          padding: 30px 0;
-
-          img {
-            width: 70%;
-          }
-
-          &--card2 {
-            padding: 6px 5px;
-            width: 165px;
-            height: 55px;
-            margin-top: 90px;
-
-            h1 {
-              font-size: 9px;
-            }
-
-            p {
-              font-size: 8px;
-              padding: 8px 0;
-            }
-
-            a {
-              font-size: 6px;
-            }
-          }
-        }
-
-        &__budget {
-          img {
-            width: 70%;
-          }
-
-          &--card3 {
-            padding: 6px 5px;
-            width: 165px;
-            height: 55px;
-            margin-top: 90px;
-
-            h1 {
-              font-size: 9px;
-            }
-
-            p {
-              font-size: 8px;
-              padding: 8px 0;
-            }
-
-            a {
-              font-size: 6px;
-            }
-          }
         }
       }
     }
   }
-
-  #techno {
-    padding: 0 0 50px 0;
-
-    .techno {
-      &--servers {
-        flex-direction: column;
-        align-items: center;
-
-        &__cloud {
-          h1 {
-            font-size: 70px;
-          }
-
-          .icon {
-            font-size: 30px;
-          }
-
-          h2 {
-            font-size: 13px;
-          }
-
-          h3 {
-            font-size: 10px;
-            width: 60%;
-          }
+  #budget{
+    .budget{
+      &--use{
+        &__dox{
+          font-size: 10px;
         }
-
-        &__secure {
-          padding: 30px 0;
-
-          h1 {
-            font-size: 70px;
-          }
-
-          .icon {
-            font-size: 30px;
-          }
-
-          h2 {
-            font-size: 13px;
-          }
-
-          h3 {
-            font-size: 10px;
-            width: 60%;
-          }
+      }
+      &--water{
+        ion-icon{
+          width: 47px;
+          margin: 0 -26px;
         }
-
-        &__pdf {
-          padding: 0 0 30px 0;
-
-          h1 {
-            font-size: 70px;
-          }
-
-          .icon {
-            font-size: 30px;
-          }
-
-          h2 {
-            font-size: 13px;
-          }
-
-          h3 {
-            font-size: 10px;
-            width: 60%;
-          }
-        }
-
-        &__csv {
-          h1 {
-            font-size: 70px;
-          }
-
-          .icon {
-            font-size: 30px;
-          }
-
-          h2 {
-            font-size: 13px;
-          }
-
-          h3 {
-            font-size: 10px;
-            width: 60%;
-          }
+        img {
+          width: 259px;
         }
       }
     }
   }
 }
-
