@@ -1,5 +1,67 @@
 @media (max-width: 1200px){
+  #feature .feature--more__support--card1 {
+    height: 125px;
+  }
+  #feature .feature--more__manage--card2 {
+    height: 125px;
+  }
+  #feature .feature--more__budget--card3 {
+    height: 125px;
+  }
+  #techno .techno--servers__cloud {
+    .icon{
+      padding: 55px 0 0 0;
+    }
+    h3 {
+      font-size: 10px;
+      width: 60%;
+    }
+    h2{
+      padding: 10px 0;
+    }
+  }
+  #techno .techno--servers__secure {
+    .icon{
+      padding: 55px 0 0 0;
+    }
+    h3 {
+      font-size: 10px;
+      width: 60%;
+    }
+    h2{
+      padding: 10px 0;
+    }
+  }
+  #techno .techno--servers__pdf {
+    .icon{
+      padding: 55px 0 0 0;
+    }
+    h3 {
+      font-size: 10px;
+      width: 60%;
+    }
+    h2{
+      padding: 10px 0;
+    }
+  }
+  #techno .techno--servers__csv {
+    .icon{
+      padding: 55px 0 0 0;
+    }
+    h3 {
+      font-size: 10px;
+      width: 60%;
+    }
+    h2{
+      padding: 10px 0;
+    }
+  }
+  #techno{
+    padding: 0 0 100px 0;
+  }
+
 }
+
 @media (max-width: 1024px){
 }
 @media (max-width: 992px){
