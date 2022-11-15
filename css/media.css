@@ -1,3 +1,56 @@
-
+@media (max-width: 1200px) {
+  #feature .feature--more__support--card1 {
+    height: 125px;
+  }
+  #feature .feature--more__manage--card2 {
+    height: 125px;
+  }
+  #feature .feature--more__budget--card3 {
+    height: 125px;
+  }
+  #techno .techno--servers__cloud .icon {
+    padding: 55px 0 0 0;
+  }
+  #techno .techno--servers__cloud h3 {
+    font-size: 10px;
+    width: 60%;
+  }
+  #techno .techno--servers__cloud h2 {
+    padding: 10px 0;
+  }
+  #techno .techno--servers__secure .icon {
+    padding: 55px 0 0 0;
+  }
+  #techno .techno--servers__secure h3 {
+    font-size: 10px;
+    width: 60%;
+  }
+  #techno .techno--servers__secure h2 {
+    padding: 10px 0;
+  }
+  #techno .techno--servers__pdf .icon {
+    padding: 55px 0 0 0;
+  }
+  #techno .techno--servers__pdf h3 {
+    font-size: 10px;
+    width: 60%;
+  }
+  #techno .techno--servers__pdf h2 {
+    padding: 10px 0;
+  }
+  #techno .techno--servers__csv .icon {
+    padding: 55px 0 0 0;
+  }
+  #techno .techno--servers__csv h3 {
+    font-size: 10px;
+    width: 60%;
+  }
+  #techno .techno--servers__csv h2 {
+    padding: 10px 0;
+  }
+  #techno {
+    padding: 0 0 100px 0;
+  }
+}
 
 /*# sourceMappingURL=media.css.map */
