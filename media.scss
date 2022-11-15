@@ -121,6 +121,52 @@
 @media (max-width: 992px){
 }
 @media (max-width: 768px){
+ #feature{
+   .feature{
+     &--more{
+       &__support{
+         &--card1{
+           width: 145px;
+           height: 100px;
+           margin-top: 114px;
+           h1{
+             font-size: 15px;
+           }
+           p{
+             font-size: 13px;
+           }
+         }
+       }
+       &__manage{
+         &--card2{
+           width: 145px;
+           height: 100px;
+           margin-top: 114px;
+           h1{
+             font-size: 15px;
+           }
+           p{
+             font-size: 13px;
+           }
+         }
+       }
+       &__budget{
+         &--card3{
+           width: 145px;
+           height: 100px;
+           margin-top: 114px;
+           h1{
+             font-size: 14px;
+           }
+           p{
+             font-size: 13px;
+             padding: 9px 0;
+           }
+         }
+       }
+     }
+   }
+ }
   #feature .feature--more__support--card1 {
     padding: 20px 20px;
     width: 152px;
@@ -618,12 +664,263 @@
   }
 }
 @media (max-width: 414px){
+  #feature{
+    .feature{
+      &--more{
+        &__support{
+          &--card1{
+            padding: 9px 10px;
+            width: 76px;
+            height: 65px;
+            margin-top: 58px;
+            p{
+              padding: 7px 0;
+            }
+          }
+        }
+        &__manage{
+          &--card2{
+            padding: 9px 10px;
+            width: 76px;
+            height: 65px;
+            margin-top: 58px;
+            p{
+              padding: 7px 0;
+            }
+          }
+        }
+        &__budget{
+          &--card3{
+            padding: 9px 10px;
+            width: 76px;
+            height: 65px;
+            margin-top: 58px;
+            h1{
+              font-size: 7px;
+            }
+            p{
+              padding: 7px 0;
+            }
+          }
+        }
+      }
+    }
+  }
 }
 @media (max-width: 380px){
+  #techno{
+    .techno{
+      &--servers{
+        &__cloud{
+          h1{
+            font-size: 55px;
+          }
+          .icon{
+            font-size: 23px;
+          }
+          h2{
+            font-size: 10px;
+          }
+          h3{
+            font-size: 7px;
+            width: 80%;
+          }
+        }
+        &__secure{
+          h1{
+            font-size: 55px;
+          }
+          .icon{
+            font-size: 23px;
+          }
+          h2{
+            font-size: 10px;
+          }
+          h3{
+            font-size: 7px;
+            width: 80%;
+          }
+        }
+        &__pdf{
+          h1{
+            font-size: 55px;
+          }
+          .icon{
+            font-size: 23px;
+          }
+          h2{
+            font-size: 10px;
+          }
+          h3{
+            font-size: 7px;
+            width: 80%;
+          }
+        }
+        &__csv{
+          h1{
+            font-size: 55px;
+          }
+          .icon{
+            font-size: 23px;
+          }
+          h2{
+            font-size: 10px;
+          }
+          h3{
+            font-size: 7px;
+            width: 80%;
+          }
+        }
+      }
+    }
+  }
 }
 @media (max-width: 375px){
 }
 @media (max-width: 360px){
 }
 @media (max-width: 320px){
+  #feature{
+    padding: 20px 0 90px 0;
+    .feature{
+      &--more{
+        flex-direction: column;
+        &__support{
+          img{
+            width: 70%;
+          }
+          &--card1{
+            padding: 6px 5px;
+            width: 165px;
+            height: 55px;
+            margin-top: 90px;
+            h1{
+              font-size: 9px;
+            }
+            p{
+              font-size: 8px;
+              padding: 8px 0;
+            }
+            a{
+              font-size: 6px;
+            }
+          }
+        }
+        &__manage{
+          padding: 30px 0;
+          img{
+            width: 70%;
+          }
+          &--card2{
+            padding: 6px 5px;
+            width: 165px;
+            height: 55px;
+            margin-top: 90px;
+            h1{
+              font-size: 9px;
+            }
+            p{
+              font-size: 8px;
+              padding: 8px 0;
+            }
+            a{
+              font-size: 6px;
+            }
+          }
+        }
+        &__budget{
+          img{
+            width: 70%;
+          }
+          &--card3{
+            padding: 6px 5px;
+            width: 165px;
+            height: 55px;
+            margin-top: 90px;
+            h1{
+              font-size: 9px;
+            }
+            p{
+              font-size: 8px;
+              padding: 8px 0;
+            }
+            a{
+              font-size: 6px;
+            }
+          }
+        }
+      }
+    }
+  }
+  #techno {
+    padding: 0 0 50px 0;
+    .techno{
+      &--servers{
+        flex-direction: column;
+        align-items: center;
+        &__cloud{
+          h1{
+            font-size: 70px;
+          }
+          .icon{
+            font-size: 30px;
+          }
+          h2{
+            font-size: 13px;
+          }
+          h3{
+            font-size: 10px;
+            width: 60%;
+          }
+        }
+        &__secure{
+          padding: 30px 0;
+          h1{
+            font-size: 70px;
+          }
+          .icon{
+            font-size: 30px;
+          }
+          h2{
+            font-size: 13px;
+          }
+          h3{
+            font-size: 10px;
+            width: 60%;
+          }
+        }
+        &__pdf{
+          padding: 0 0 30px 0;
+          h1{
+            font-size: 70px;
+          }
+          .icon{
+            font-size: 30px;
+          }
+          h2{
+            font-size: 13px;
+          }
+          h3{
+            font-size: 10px;
+            width: 60%;
+          }
+        }
+        &__csv{
+          h1{
+            font-size: 70px;
+          }
+          .icon{
+            font-size: 30px;
+          }
+          h2{
+            font-size: 13px;
+          }
+          h3{
+            font-size: 10px;
+            width: 60%;
+          }
+        }
+      }
+    }
+  }
 }
