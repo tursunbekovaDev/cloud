@@ -61,6 +61,7 @@
   }
 
 }
+
 @media (max-width: 1024px){
   #feature {
     .feature {
@@ -166,6 +167,142 @@
      }
    }
  }
+  #feature .feature--more__support--card1 {
+    padding: 20px 20px;
+    width: 152px;
+    height: 101px;
+    margin-top: 110px;
+
+    h1 {
+      font-size: 16px;
+    }
+
+    p {
+      font-size: 11px;
+      padding: 12px 0;
+    }
+  }
+  #feature .feature--more__manage--card2 {
+    padding: 20px 20px;
+    width: 152px;
+    height: 101px;
+    margin-top: 110px;
+
+    h1 {
+      font-size: 16px;
+    }
+
+    p {
+      font-size: 11px;
+    }
+  }
+  #feature .feature--more__budget--card3 {
+    padding: 20px 20px;
+    width: 152px;
+    height: 101px;
+    margin-top: 110px;
+
+    h1 {
+      font-size: 15px;
+    }
+
+    p {
+      font-size: 11px;
+      padding: 12px 0;
+    }
+  }
+  #techno {
+    .techno {
+      &--servers {
+        &__cloud {
+          .icon {
+            padding: 62px 0 0 0;
+          }
+
+          h2 {
+            padding: 10px 0;
+          }
+        }
+
+        &__secure {
+          .icon {
+            padding: 62px 0 0 0;
+          }
+
+          h2 {
+            padding: 10px 0;
+          }
+        }
+
+        &__pdf {
+          .icon {
+            padding: 62px 0 0 0;
+          }
+
+          h2 {
+            padding: 10px 0;
+          }
+        }
+
+        &__csv {
+          .icon {
+            padding: 62px 0 0 0;
+          }
+
+          h2 {
+            padding: 10px 0;
+          }
+        }
+      }
+
+      padding: 10px 20px;
+      width: 160px;
+      height: 140px;
+      margin-top: 110px;
+
+      h1 {
+        font-size: 16px;
+      }
+
+      p {
+        font-size: 11px;
+      }
+    }
+
+    #feature .feature--more__manage--card2 {
+      padding: 10px 20px;
+      width: 160px;
+      height: 140px;
+      margin-top: 110px;
+
+      h1 {
+        font-size: 16px;
+      }
+
+      h1 {
+        font-size: 16px;
+      }
+
+      p {
+        font-size: 11px;
+      }
+    }
+
+    #feature .feature--more__budget--card3 {
+      padding: 10px 20px;
+      width: 160px;
+      height: 140px;
+      margin-top: 110px;
+
+      h1 {
+        font-size: 16px;
+      }
+
+      p {
+        font-size: 11px;
+      }
+    }
+  }
 }
 @media (max-width: 576px){
   #feature {
