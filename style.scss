@@ -1,1 +1,179 @@
 @import "mixin";
+#feature {
+  background: #FAFAFA;
+  padding: 0 0 300px;
+
+  .feature {
+    &--center {
+      @include feature;
+    }
+
+    &--more {
+      @include align;
+
+      &__support {
+        @include card;
+
+        img {
+        }
+
+        &--card1 {
+          @include cards;
+
+          h1 {
+            @include all;
+          }
+
+          p {
+            @include p;
+          }
+
+          a {
+            @include a;
+          }
+        }
+      }
+
+      &__manage {
+        @include card;
+
+        img {
+        }
+
+        &--card2 {
+          @include cards;
+
+          h1 {
+            @include all;
+          }
+
+          p {
+            @include p;
+            padding: 33px 0;
+          }
+
+          a {
+            @include a;
+          }
+        }
+      }
+
+      &__budget {
+        @include card;
+
+        img {
+        }
+
+        &--card3 {
+          @include cards;
+
+          h1 {
+            @include all;
+          }
+
+          p {
+            @include p;
+          }
+
+          a {
+            @include a;
+          }
+        }
+      }
+
+    }
+  }
+}
+#techno {
+  .techno {
+    &--tittle {
+      @include feature;
+      padding: 60px 0 0 0;
+    }
+
+    &--servers {
+      @include align;
+
+      &__cloud {
+        @include center;
+
+        h1 {
+          @include number;
+        }
+
+        .icon {
+          @include icon;
+        }
+
+        h2 {
+          @include tittle;
+        }
+
+        h3 {
+          @include h3;
+        }
+      }
+
+      &__secure {
+        @include center;
+
+        h1 {
+          @include number;
+        }
+
+        .icon {
+          @include icon
+        }
+
+        h2 {
+          @include tittle;
+        }
+
+        h3 {
+          @include h3;
+        }
+      }
+
+      &__pdf {
+        @include center;
+
+        h1 {
+          @include number;
+        }
+
+        .icon {
+          @include icon
+        }
+
+        h2 {
+          @include tittle;
+        }
+
+        h3 {
+          @include h3;
+        }
+      }
+
+      &__csv {
+        @include center;
+
+        h1 {
+          @include number;
+        }
+
+        .icon {
+          @include icon
+        }
+
+        h2 {
+          @include tittle;
+        }
+
+        h3 {
+          @include h3;
+        }
+      }
+
+    }
+  }
+}
