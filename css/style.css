@@ -85,7 +85,6 @@ a {
   font-size: 17px;
   color: #101010;
   text-align: center;
-  padding: 20px 0;
   padding: 33px 0;
 }
 #feature .feature--more__manage--card2 a {
@@ -245,5 +244,3 @@ a {
   text-align: center;
   width: 50%;
 }
-
-/*# sourceMappingURL=style.css.map */
