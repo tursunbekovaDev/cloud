@@ -86,6 +86,36 @@
   #feature .feature--more__budget--card3 p {
     padding: 8px 0;
   }
+  #budget .budget--water img {
+    width: 402px;
+    height: 273px;
+    border-radius: 6px;
+  }
+  #budget .budget--use__dox {
+    font-size: 12px;
+    width: 85%;
+  }
+  #budget .budget--use__work {
+    padding: 23px 0;
+    font-size: 30px;
+    line-height: 33px;
+  }
+}
+@media (max-width: 992px) {
+  #hero .hero--menu {
+    width: 60%;
+  }
+  #project .project--budget__btns:hover {
+    width: 155px;
+    height: 54px;
+  }
+  #project .project--budget__btns {
+    width: 139px;
+    height: 45px;
+  }
+  #project .project__circle {
+    font-size: 70px;
+  }
 }
 @media (max-width: 768px) {
   #feature .feature--more__support--card1 {
@@ -121,6 +151,149 @@
   #feature .feature--more__budget--card3 p {
     font-size: 13px;
     padding: 9px 0;
+  }
+  #feature .feature--more__support--card1 {
+    padding: 20px 20px;
+    width: 152px;
+    height: 101px;
+    margin-top: 110px;
+  }
+  #feature .feature--more__support--card1 h1 {
+    font-size: 16px;
+  }
+  #feature .feature--more__support--card1 p {
+    font-size: 11px;
+    padding: 12px 0;
+  }
+  #feature .feature--more__manage--card2 {
+    padding: 20px 20px;
+    width: 152px;
+    height: 101px;
+    margin-top: 110px;
+  }
+  #feature .feature--more__manage--card2 h1 {
+    font-size: 16px;
+  }
+  #feature .feature--more__manage--card2 p {
+    font-size: 11px;
+  }
+  #feature .feature--more__budget--card3 {
+    padding: 20px 20px;
+    width: 152px;
+    height: 101px;
+    margin-top: 110px;
+  }
+  #feature .feature--more__budget--card3 h1 {
+    font-size: 15px;
+  }
+  #feature .feature--more__budget--card3 p {
+    font-size: 11px;
+    padding: 12px 0;
+  }
+  #techno .techno {
+    padding: 10px 20px;
+    width: 160px;
+    height: 140px;
+    margin-top: 110px;
+  }
+  #techno .techno--servers__cloud .icon {
+    padding: 62px 0 0 0;
+  }
+  #techno .techno--servers__cloud h2 {
+    padding: 10px 0;
+  }
+  #techno .techno--servers__secure .icon {
+    padding: 62px 0 0 0;
+  }
+  #techno .techno--servers__secure h2 {
+    padding: 10px 0;
+  }
+  #techno .techno--servers__pdf .icon {
+    padding: 62px 0 0 0;
+  }
+  #techno .techno--servers__pdf h2 {
+    padding: 10px 0;
+  }
+  #techno .techno--servers__csv .icon {
+    padding: 62px 0 0 0;
+  }
+  #techno .techno--servers__csv h2 {
+    padding: 10px 0;
+  }
+  #techno .techno h1 {
+    font-size: 16px;
+  }
+  #techno .techno p {
+    font-size: 11px;
+  }
+  #techno #feature .feature--more__manage--card2 {
+    padding: 10px 20px;
+    width: 160px;
+    height: 140px;
+    margin-top: 110px;
+  }
+  #techno #feature .feature--more__manage--card2 h1 {
+    font-size: 16px;
+  }
+  #techno #feature .feature--more__manage--card2 h1 {
+    font-size: 16px;
+  }
+  #techno #feature .feature--more__manage--card2 p {
+    font-size: 11px;
+  }
+  #techno #feature .feature--more__budget--card3 {
+    padding: 10px 20px;
+    width: 160px;
+    height: 140px;
+    margin-top: 110px;
+  }
+  #techno #feature .feature--more__budget--card3 h1 {
+    font-size: 16px;
+  }
+  #techno #feature .feature--more__budget--card3 p {
+    font-size: 11px;
+  }
+  #hero .hero {
+    padding: 68px 0 0 0;
+  }
+  #hero .hero--general__btn {
+    width: 75px;
+    height: 31px;
+    margin: 0 -4px;
+  }
+  #hero .hero--menu {
+    width: 60%;
+    font-size: 12px;
+  }
+  #hero .hero--cloud {
+    width: 25%;
+    font-size: 15px;
+  }
+  #project {
+    height: 465px;
+  }
+  #project .project--budget__circle {
+    font-size: 60px;
+  }
+  #budget .budget--use__fox {
+    font-size: 13px;
+  }
+  #budget .budget--use__dox {
+    font-size: 10px;
+    width: 95%;
+  }
+  #budget .budget--use__work {
+    padding: 34px 0;
+    font-size: 25px;
+  }
+  #budget .budget--water ion-icon {
+    width: 47px;
+    height: 88px;
+    margin: 0 0 0 -26px;
+  }
+  #budget .budget--water img {
+    width: 277px;
+    height: 230px;
   }
 }
 @media (max-width: 576px) {
@@ -264,6 +437,45 @@
   #techno .techno--servers__csv h3 {
     padding: 10px 0 0 0;
   }
+  #hero .hero {
+    padding: 25px 0 0 0;
+  }
+  #hero .hero--general img {
+    width: 20px;
+  }
+  #hero .hero--general__btn {
+    width: 56px;
+    height: 26px;
+    margin: 0 -5px;
+  }
+  #hero .hero--menu {
+    width: 70%;
+    font-size: 9px;
+  }
+  #hero .hero--cloud {
+    width: 25%;
+    font-size: 11px;
+  }
+  #budget .budget--use__dox {
+    font-size: 7px;
+    width: 95%;
+  }
+  #budget .budget--use__work {
+    line-height: 23px;
+    padding: 3px 0;
+    font-size: 18px;
+  }
+  #budget .budget--water ion-icon {
+    width: 30px;
+    margin: 0 -18px;
+  }
+  #budget .budget--water img {
+    width: 178px;
+    height: 158px;
+  }
+  #project .project--budget__circle {
+    font-size: 50px;
+  }
 }
 @media (max-width: 450px) {
   #feature {
@@ -375,6 +587,38 @@
   #techno .techno--servers__csv h3 {
     font-size: 8px;
   }
+  #hero .hero--general {
+    display: none;
+  }
+  #hero .hero--menu {
+    display: none;
+  }
+  #budget .budget {
+    display: flex;
+    flex-direction: column;
+  }
+  #budget .budget--water ion-icon {
+    width: 53px;
+    margin: 0 -30px;
+  }
+  #budget .budget--water img {
+    width: 295px;
+    height: 197px;
+  }
+  #budget .budget--use__dox {
+    font-size: 13px;
+    width: 100%;
+  }
+  #budget .budget--use__work {
+    padding: 24px 0;
+    font-size: 28px;
+  }
+  #project {
+    height: 424px;
+  }
+  #project .project--budget__circle {
+    font-size: 40px;
+  }
 }
 @media (max-width: 414px) {
   #feature .feature--more__support--card1 {
@@ -460,6 +704,12 @@
   #techno .techno--servers__csv h3 {
     font-size: 7px;
     width: 80%;
+  }
+}
+@media (max-width: 360px) {
+  #budget .budget--use__work {
+    padding: 9px 0;
+    font-size: 20px;
   }
 }
 @media (max-width: 320px) {
@@ -594,4 +844,23 @@
     font-size: 10px;
     width: 60%;
   }
+  #project .project--budget__circle {
+    font-size: 30px;
+  }
+  #project .project--budget__pro {
+    margin: 33px 0;
+    font-size: 12px;
+  }
+  #budget .budget--use__dox {
+    font-size: 10px;
+  }
+  #budget .budget--water ion-icon {
+    width: 47px;
+    margin: 0 -26px;
+  }
+  #budget .budget--water img {
+    width: 259px;
+  }
 }
+
+/*# sourceMappingURL=media.css.map */
