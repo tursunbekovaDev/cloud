@@ -437,6 +437,36 @@
     padding: 10px 0 0 0;
   }
 }
+@media (max-width: 516px) {
+  #techno .techno--servers {
+    flex-direction: column;
+    align-items: center;
+  }
+  #techno .techno--servers__cloud {
+    padding: 0 200px 0 0;
+  }
+  #techno .techno--servers__cloud h2 {
+    font-size: 12px;
+  }
+  #techno .techno--servers__secure {
+    padding: 0 0 0 200px;
+  }
+  #techno .techno--servers__secure h2 {
+    font-size: 12px;
+  }
+  #techno .techno--servers__pdf {
+    padding: 0 200px 0 0;
+  }
+  #techno .techno--servers__pdf h2 {
+    font-size: 12px;
+  }
+  #techno .techno--servers__csv {
+    padding: 0 0 0 200px;
+  }
+  #techno .techno--servers__csv h2 {
+    font-size: 12px;
+  }
+}
 @media (max-width: 450px) {
   #feature {
     padding: 20px 0 130px 0;
@@ -446,12 +476,12 @@
   }
   #feature .feature--more__support--card1 {
     padding: 15px 20px;
-    width: 70px;
+    width: 60px;
     height: 80px;
     margin-top: 65px;
   }
   #feature .feature--more__support--card1 h1 {
-    font-size: 8px;
+    font-size: 6px;
   }
   #feature .feature--more__support--card1 p {
     font-size: 7px;
@@ -462,12 +492,12 @@
   }
   #feature .feature--more__manage--card2 {
     padding: 15px 20px;
-    width: 70px;
+    width: 60px;
     height: 80px;
     margin-top: 65px;
   }
   #feature .feature--more__manage--card2 h1 {
-    font-size: 8px;
+    font-size: 6px;
   }
   #feature .feature--more__manage--card2 p {
     font-size: 7px;
@@ -478,12 +508,12 @@
   }
   #feature .feature--more__budget--card3 {
     padding: 15px 20px;
-    width: 70px;
+    width: 60px;
     height: 80px;
     margin-top: 65px;
   }
   #feature .feature--more__budget--card3 h1 {
-    font-size: 8px;
+    font-size: 6px;
   }
   #feature .feature--more__budget--card3 p {
     font-size: 7px;
@@ -555,6 +585,9 @@
     height: 65px;
     margin-top: 58px;
   }
+  #feature .feature--more__support--card1 h1 {
+    font-size: 8px;
+  }
   #feature .feature--more__support--card1 p {
     padding: 7px 0;
   }
@@ -564,6 +597,9 @@
     height: 65px;
     margin-top: 58px;
   }
+  #feature .feature--more__manage--card2 h1 {
+    font-size: 8px;
+  }
   #feature .feature--more__manage--card2 p {
     padding: 7px 0;
   }
@@ -572,6 +608,9 @@
     width: 76px;
     height: 65px;
     margin-top: 58px;
+  }
+  #feature .feature--more__budget--card3 h1 {
+    font-size: 8px;
   }
   #feature .feature--more__budget--card3 h1 {
     font-size: 7px;
@@ -581,132 +620,47 @@
   }
 }
 @media (max-width: 380px) {
-  #techno .techno--servers__cloud h1 {
-    font-size: 55px;
-  }
-  #techno .techno--servers__cloud .icon {
-    font-size: 23px;
-  }
-  #techno .techno--servers__cloud h2 {
-    font-size: 10px;
-  }
-  #techno .techno--servers__cloud h3 {
-    font-size: 7px;
-    width: 80%;
-  }
-  #techno .techno--servers__secure h1 {
-    font-size: 55px;
-  }
-  #techno .techno--servers__secure .icon {
-    font-size: 23px;
-  }
-  #techno .techno--servers__secure h2 {
-    font-size: 10px;
-  }
-  #techno .techno--servers__secure h3 {
-    font-size: 7px;
-    width: 80%;
-  }
-  #techno .techno--servers__pdf h1 {
-    font-size: 55px;
-  }
-  #techno .techno--servers__pdf .icon {
-    font-size: 23px;
-  }
-  #techno .techno--servers__pdf h2 {
-    font-size: 10px;
-  }
-  #techno .techno--servers__pdf h3 {
-    font-size: 7px;
-    width: 80%;
-  }
-  #techno .techno--servers__csv h1 {
-    font-size: 55px;
-  }
-  #techno .techno--servers__csv .icon {
-    font-size: 23px;
-  }
-  #techno .techno--servers__csv h2 {
-    font-size: 10px;
-  }
-  #techno .techno--servers__csv h3 {
-    font-size: 7px;
-    width: 80%;
-  }
-}
-@media (max-width: 320px) {
-  #feature {
-    padding: 20px 0 90px 0;
-  }
   #feature .feature--more {
     flex-direction: column;
+    align-items: center;
   }
   #feature .feature--more__support img {
     width: 70%;
   }
   #feature .feature--more__support--card1 {
-    padding: 6px 5px;
-    width: 165px;
-    height: 55px;
-    margin-top: 90px;
-  }
-  #feature .feature--more__support--card1 h1 {
-    font-size: 9px;
-  }
-  #feature .feature--more__support--card1 p {
-    font-size: 8px;
-    padding: 8px 0;
-  }
-  #feature .feature--more__support--card1 a {
-    font-size: 6px;
+    width: 140px;
+    height: 50px;
+    margin-top: 122px;
   }
   #feature .feature--more__manage {
-    padding: 30px 0;
+    padding: 80px 0;
   }
   #feature .feature--more__manage img {
     width: 70%;
   }
   #feature .feature--more__manage--card2 {
-    padding: 6px 5px;
-    width: 165px;
-    height: 55px;
-    margin-top: 90px;
-  }
-  #feature .feature--more__manage--card2 h1 {
-    font-size: 9px;
-  }
-  #feature .feature--more__manage--card2 p {
-    font-size: 8px;
-    padding: 8px 0;
-  }
-  #feature .feature--more__manage--card2 a {
-    font-size: 6px;
+    width: 140px;
+    height: 50px;
+    margin-top: 122px;
   }
   #feature .feature--more__budget img {
     width: 70%;
   }
   #feature .feature--more__budget--card3 {
-    padding: 6px 5px;
-    width: 165px;
-    height: 55px;
-    margin-top: 90px;
+    width: 140px;
+    height: 50px;
+    margin-top: 122px;
   }
-  #feature .feature--more__budget--card3 h1 {
-    font-size: 9px;
-  }
-  #feature .feature--more__budget--card3 p {
-    font-size: 8px;
-    padding: 8px 0;
-  }
-  #feature .feature--more__budget--card3 a {
-    font-size: 6px;
-  }
+}
+@media (max-width: 320px) {
   #techno {
     padding: 0 0 50px 0;
   }
   #techno .techno--servers {
     flex-direction: column;
-    align-items: center;
+  }
+  #techno .techno--servers__cloud {
+    padding: 0 150px 0 0;
   }
   #techno .techno--servers__cloud h1 {
     font-size: 70px;
@@ -722,7 +676,7 @@
     width: 60%;
   }
   #techno .techno--servers__secure {
-    padding: 30px 0;
+    padding: 0 0 0 150px;
   }
   #techno .techno--servers__secure h1 {
     font-size: 70px;
@@ -738,7 +692,7 @@
     width: 60%;
   }
   #techno .techno--servers__pdf {
-    padding: 0 0 30px 0;
+    padding: 0 150px 0 0;
   }
   #techno .techno--servers__pdf h1 {
     font-size: 70px;
@@ -752,6 +706,9 @@
   #techno .techno--servers__pdf h3 {
     font-size: 10px;
     width: 60%;
+  }
+  #techno .techno--servers__csv {
+    padding: 0 0 0 150px;
   }
   #techno .techno--servers__csv h1 {
     font-size: 70px;
@@ -767,5 +724,3 @@
     width: 60%;
   }
 }
-
-/*# sourceMappingURL=yasminn.css.map */
