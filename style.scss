@@ -1,6 +1,8 @@
 @import "mixin";
 
 
+
+
 #hero {
   .hero {
     position: absolute;
@@ -148,7 +150,6 @@
     }
   }
 }
-
 #menu__toggle {
   opacity: 0;
 }
@@ -156,17 +157,14 @@
 #menu__toggle:checked ~ .menu__btn > span {
   transform: rotate(45deg);
 }
-
 #menu__toggle:checked ~ .menu__btn > span::before {
   top: 0;
   transform: rotate(0);
 }
-
 #menu__toggle:checked ~ .menu__btn > span::after {
   top: 0;
   transform: rotate(90deg);
 }
-
 #menu__toggle:checked ~ .menu__box {
   visibility: visible;
   left: 0;
@@ -199,7 +197,6 @@
   content: '';
   top: -8px;
 }
-
 .menu__btn > span::after {
   content: '';
   top: 8px;
@@ -230,11 +227,9 @@
   text-decoration: none;
   transition-duration: .25s;
 }
-
 .menu__item:hover {
   background-color: #CFD8DC;
 }
-
 
 #feature {
   background: #FAFAFA;
@@ -248,170 +243,187 @@
     &--more {
       @include align;
 
-      &__support {
-        @include card;
+      #feature {
+        background: #FAFAFA;
+        padding: 50px 0 300px 0;
 
-        img {
-        }
-
-        &--card1 {
-          @include cards;
-
-          h1 {
-            @include all;
+        .feature {
+          &--center {
+            @include feature;
           }
 
-          p {
-            @include p;
+          &--more {
+            @include align;
           }
+            &__support {
+              @include card;
+            }
+              img {
+                width: 90%;
+              }
 
-          a {
-            @include a;
+              &--card1 {
+                @include cards;
+              }
+                h1 {
+                  @include all;
+                }
+
+                p {
+                  @include p;
+                }
+
+                a {
+                  @include a;
+                }
+              }
+            }
+
+            &__manage {
+              @include card;
+
+              img {
+                width: 90%;
+              }
+
+              &--card2 {
+                @include cards;
+
+                h1 {
+                  @include all;
+                }
+
+                p {
+                  @include p;
+                  padding: 19px 0;
+                }
+
+                a {
+                  @include a;
+                }
+              }
+            }
+
+            &__budget {
+              @include card;
+
+              img {
+                width: 90%;
+              }
+
+              &--card3 {
+                @include cards;
+
+                h1 {
+                  @include all;
+                }
+
+                p {
+                  @include p;
+                }
+
+                a {
+                  @include a;
+                }
+              }
+            }
+
           }
         }
       }
 
-      &__manage {
-        @include card;
+      #techno {
 
-        img {
-        }
-
-        &--card2 {
-          @include cards;
-
-          h1 {
-            @include all;
+        .techno {
+          &--tittle {
+            @include feature;
+            padding: 60px 0 0 0;
           }
 
-          p {
-            @include p;
-            padding: 33px 0;
-          }
+          &--servers {
+            @include align;
 
-          a {
-            @include a;
+            &__cloud {
+              @include center;
+
+              h1 {
+                @include number;
+              }
+
+              .icon {
+                @include icon;
+              }
+
+              h2 {
+                @include tittle;
+              }
+
+              h3 {
+                @include h3;
+              }
+            }
+
+            &__secure {
+              @include center;
+
+              h1 {
+                @include number;
+              }
+
+              .icon {
+                @include icon
+              }
+
+              h2 {
+                @include tittle;
+              }
+
+              h3 {
+                @include h3;
+              }
+            }
+
+            &__pdf {
+              @include center;
+
+              h1 {
+                @include number;
+              }
+
+              .icon {
+                @include icon
+              }
+
+              h2 {
+                @include tittle;
+              }
+
+              h3 {
+                @include h3;
+              }
+            }
+
+            &__csv {
+              @include center;
+
+              h1 {
+                @include number;
+              }
+
+              .icon {
+                @include icon
+              }
+
+              h2 {
+                @include tittle;
+              }
+
+              h3 {
+                @include h3;
+              }
+            }
+
           }
         }
       }
 
-      &__budget {
-        @include card;
-
-        img {
-        }
-
-        &--card3 {
-          @include cards;
-
-          h1 {
-            @include all;
-          }
-
-          p {
-            @include p;
-          }
-
-          a {
-            @include a;
-          }
-        }
-      }
-
-    }
-  }
-}
-
-#techno {
-  .techno {
-    &--tittle {
-      @include feature;
-      padding: 60px 0 0 0;
-    }
-
-    &--servers {
-      @include align;
-
-      &__cloud {
-        @include center;
-
-        h1 {
-          @include number;
-        }
-
-        .icon {
-          @include icon;
-        }
-
-        h2 {
-          @include tittle;
-        }
-
-        h3 {
-          @include h3;
-        }
-      }
-
-      &__secure {
-        @include center;
-
-        h1 {
-          @include number;
-        }
-
-        .icon {
-          @include icon
-        }
-
-        h2 {
-          @include tittle;
-        }
-
-        h3 {
-          @include h3;
-        }
-      }
-
-      &__pdf {
-        @include center;
-
-        h1 {
-          @include number;
-        }
-
-        .icon {
-          @include icon
-        }
-
-        h2 {
-          @include tittle;
-        }
-
-        h3 {
-          @include h3;
-        }
-      }
-
-      &__csv {
-        @include center;
-
-        h1 {
-          @include number;
-        }
-
-        .icon {
-          @include icon
-        }
-
-        h2 {
-          @include tittle;
-        }
-
-        h3 {
-          @include h3;
-        }
-      }
-
-    }
-  }
-}
