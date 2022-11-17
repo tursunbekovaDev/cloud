@@ -5,58 +5,6 @@
   #software .software--cloub {
     padding: 10px 0 0 42px;
   }
-  #feature .feature--more__support--card1 {
-    height: 125px;
-  }
-  #feature .feature--more__manage--card2 {
-    height: 125px;
-  }
-  #feature .feature--more__budget--card3 {
-    height: 125px;
-  }
-  #techno .techno--servers__cloud .icon {
-    padding: 55px 0 0 0;
-  }
-  #techno .techno--servers__cloud h3 {
-    font-size: 10px;
-    width: 60%;
-  }
-  #techno .techno--servers__cloud h2 {
-    padding: 10px 0;
-  }
-  #techno .techno--servers__secure .icon {
-    padding: 55px 0 0 0;
-  }
-  #techno .techno--servers__secure h3 {
-    font-size: 10px;
-    width: 60%;
-  }
-  #techno .techno--servers__secure h2 {
-    padding: 10px 0;
-  }
-  #techno .techno--servers__pdf .icon {
-    padding: 55px 0 0 0;
-  }
-  #techno .techno--servers__pdf h3 {
-    font-size: 10px;
-    width: 60%;
-  }
-  #techno .techno--servers__pdf h2 {
-    padding: 10px 0;
-  }
-  #techno .techno--servers__csv .icon {
-    padding: 55px 0 0 0;
-  }
-  #techno .techno--servers__csv h3 {
-    font-size: 10px;
-    width: 60%;
-  }
-  #techno .techno--servers__csv h2 {
-    padding: 10px 0;
-  }
-  #techno {
-    padding: 0 0 100px 0;
-  }
 }
 @media (max-width: 1024px) {
   #stay .stay--focused__img img {
@@ -67,72 +15,6 @@
   }
   #stay .stay--focused__saving {
     font-size: 37px;
-  }
-  #budget .budget--water img {
-    width: 402px;
-    height: 273px;
-    border-radius: 6px;
-  }
-  #budget .budget--use__dox {
-    font-size: 12px;
-    width: 85%;
-  }
-  #budget .budget--use__work {
-    padding: 23px 0;
-    font-size: 30px;
-    line-height: 33px;
-  }
-  #feature .feature--more__support img {
-    width: 90%;
-  }
-  #feature .feature--more__support--card1 {
-    width: 222px;
-    height: 143px;
-    margin-top: 144px;
-  }
-  #feature .feature--more__support--card1 p {
-    padding: 8px 0;
-  }
-  #feature .feature--more__manage img {
-    width: 90%;
-  }
-  #feature .feature--more__manage--card2 {
-    width: 222px;
-    height: 143px;
-    margin-top: 144px;
-  }
-  #feature .feature--more__manage--card2 p {
-    padding: 8px 0;
-  }
-  #feature .feature--more__budget img {
-    width: 90%;
-  }
-  #feature .feature--more__budget--card3 {
-    width: 222px;
-    height: 143px;
-    margin-top: 144px;
-  }
-  #feature .feature--more__budget--card3 p {
-    padding: 8px 0;
-  }
-  #software .software--cloub {
-    padding: 10px 0 0 13px;
-  }
-}
-@media (max-width: 992px) {
-  #hero .hero--menu {
-    width: 60%;
-  }
-  #project .project--budget__btns:hover {
-    width: 155px;
-    height: 54px;
-  }
-  #project .project--budget__btns {
-    width: 139px;
-    height: 45px;
-  }
-  #project .project__circle {
-    font-size: 70px;
   }
 }
 @media (max-width: 768px) {
@@ -189,82 +71,6 @@
     font-size: 11px;
     margin: 13px 0 0 0;
   }
-  #feature .feature--more__support--card1 {
-    width: 145px;
-    height: 100px;
-    margin-top: 114px;
-  }
-  #feature .feature--more__support--card1 h1 {
-    font-size: 15px;
-  }
-  #feature .feature--more__support--card1 p {
-    font-size: 13px;
-  }
-  #feature .feature--more__manage--card2 {
-    width: 145px;
-    height: 100px;
-    margin-top: 114px;
-  }
-  #feature .feature--more__manage--card2 h1 {
-    font-size: 15px;
-  }
-  #feature .feature--more__manage--card2 p {
-    font-size: 13px;
-  }
-  #feature .feature--more__budget--card3 {
-    width: 145px;
-    height: 100px;
-    margin-top: 114px;
-  }
-  #feature .feature--more__budget--card3 h1 {
-    font-size: 14px;
-  }
-  #feature .feature--more__budget--card3 p {
-    font-size: 13px;
-    padding: 9px 0;
-  }
-  #hero .hero {
-    padding: 68px 0 0 0;
-  }
-  #hero .hero--general__btn {
-    width: 75px;
-    height: 31px;
-    margin: 0 -4px;
-  }
-  #hero .hero--menu {
-    width: 60%;
-    font-size: 12px;
-  }
-  #hero .hero--cloud {
-    width: 25%;
-    font-size: 15px;
-  }
-  #project {
-    height: 465px;
-  }
-  #project .project--budget__circle {
-    font-size: 60px;
-  }
-  #budget .budget--use__fox {
-    font-size: 13px;
-  }
-  #budget .budget--use__dox {
-    font-size: 10px;
-    width: 95%;
-  }
-  #budget .budget--use__work {
-    padding: 34px 0;
-    font-size: 25px;
-  }
-  #budget .budget--water ion-icon {
-    width: 47px;
-    height: 88px;
-    margin: 0 0 0 -26px;
-  }
-  #budget .budget--water img {
-    width: 277px;
-    height: 230px;
-  }
 }
 @media (max-width: 576px) {
   #stay .stay {
@@ -320,9 +126,6 @@
     font-size: 15px;
     margin: 0 0 20px 0;
   }
-  #feature {
-    padding: 0 0 160px;
-  }
   #software .software--cloub {
     font-size: 12px;
   }
@@ -346,302 +149,116 @@
   #software .software--visa__address--pipang {
     font-size: 9px;
   }
-  #feature .feature--more__support--card1 {
-    width: 95px;
-    height: 95px;
-    margin-top: 80px;
+  #hero .hero__hamburger__menu {
+    @import url(https://fonts.googleapis.com/css?family=Raleway);
   }
-  #feature .feature--more__support--card1 h1 {
-    font-size: 11px;
+  #hero .hero__hamburger__menu .menu {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
   }
-  #feature .feature--more__support--card1 p {
-    font-size: 10px;
-    padding: 5px 0;
+  #hero .hero__hamburger__menu .menu > li {
+    margin: 0 1rem;
+    overflow: hidden;
   }
-  #feature .feature--more__manage--card2 {
-    width: 95px;
-    height: 95px;
-    margin-top: 80px;
+  #hero .hero__hamburger__menu #menu-toggle {
+    display: none;
   }
-  #feature .feature--more__manage--card2 h1 {
-    font-size: 12px;
-  }
-  #feature .feature--more__manage--card2 p {
-    font-size: 10px;
-    padding: 5px 0;
-  }
-  #feature .feature--more__budget--card3 {
-    width: 95px;
-    height: 95px;
-    margin-top: 80px;
-  }
-  #feature .feature--more__budget--card3 h1 {
-    font-size: 11px;
-  }
-  #feature .feature--more__budget--card3 p {
-    font-size: 10px;
-    padding: 5px 0;
-  }
-  #techno .techno--servers {
-    align-items: start;
-  }
-  #techno .techno--servers__cloud .icon {
-    font-size: 35px;
-    padding: 63px 0 0 0;
-  }
-  #techno .techno--servers__cloud h2 {
-    font-size: 15px;
-  }
-  #techno .techno--servers__cloud h3 {
-    padding: 10px 0 0 0;
-  }
-  #techno .techno--servers__secure .icon {
-    font-size: 35px;
-    padding: 63px 0 0 0;
-  }
-  #techno .techno--servers__secure h2 {
-    font-size: 15px;
-  }
-  #techno .techno--servers__secure h3 {
-    padding: 10px 0 0 0;
-  }
-  #techno .techno--servers__pdf .icon {
-    font-size: 35px;
-    padding: 63px 0 0 0;
-  }
-  #techno .techno--servers__pdf h2 {
-    font-size: 15px;
-  }
-  #techno .techno--servers__pdf p {
-    font-size: 10px;
-    padding: 5px 0;
-  }
-  #hero .hero {
-    padding: 25px 0 0 0;
-  }
-  #hero .hero--general img {
-    width: 20px;
-  }
-  #hero .hero--general__btn {
-    width: 56px;
-    height: 26px;
-    margin: 0 -5px;
-  }
-  #hero .hero--menu {
-    width: 70%;
-    font-size: 9px;
-  }
-  #hero .hero--cloud {
-    width: 25%;
-    font-size: 11px;
-  }
-  #budget .budget--use__dox {
-    font-size: 7px;
-    width: 95%;
-  }
-  #budget .budget--use__work {
-    line-height: 23px;
-    padding: 3px 0;
-    font-size: 18px;
-  }
-  #budget .budget--water ion-icon {
+  #hero .hero__hamburger__menu .menu-button,
+  #hero .hero__hamburger__menu .menu-button::before,
+  #hero .hero__hamburger__menu .menu-button::after {
+    display: block;
+    background-color: #fff;
+    position: absolute;
+    height: 4px;
     width: 30px;
-    margin: 0 -18px;
+    transition: transform 400ms cubic-bezier(0.23, 1, 0.32, 1);
+    border-radius: 2px;
   }
-  #budget .budget--water img {
-    width: 178px;
-    height: 158px;
+  #hero .hero__hamburger__menu .menu-button::before {
+    content: "";
+    margin-top: -8px;
   }
-  #project .project--budget__circle {
-    font-size: 50px;
+  #hero .hero__hamburger__menu .menu-button::after {
+    content: "";
+    margin-top: 8px;
+  }
+  #hero .hero__hamburger__menu #menu-toggle:checked + .menu-button-container .menu-button::before {
+    margin-top: 0;
+    transform: rotate(405deg);
+  }
+  #hero .hero__hamburger__menu #menu-toggle:checked + .menu-button-container .menu-button {
+    background: rgba(255, 255, 255, 0);
+  }
+  #hero .hero__hamburger__menu #menu-toggle:checked + .menu-button-container .menu-button::after {
+    margin-top: 0;
+    transform: rotate(-405deg);
   }
 }
-@media (max-width: 450px) {
-  #feature {
-    padding: 20px 0 130px 0;
-  }
-  #feature .feature--center {
-    font-size: 25px;
-  }
-  #feature .feature--more__support--card1 {
-    padding: 15px 20px;
-    width: 70px;
-    height: 80px;
-    margin-top: 65px;
-  }
-  #feature .feature--more__support--card1 h1 {
-    font-size: 8px;
-  }
-  #feature .feature--more__support--card1 p {
-    font-size: 7px;
-    padding: 10px 0;
-  }
-  #feature .feature--more__support--card1 a {
-    font-size: 8px;
-  }
-  #feature .feature--more__manage--card2 {
-    padding: 15px 20px;
-    width: 70px;
-    height: 80px;
-    margin-top: 65px;
-  }
-  #feature .feature--more__manage--card2 h1 {
-    font-size: 8px;
-  }
-  #feature .feature--more__manage--card2 p {
-    font-size: 7px;
-    padding: 10px 0;
-  }
-  #feature .feature--more__manage--card2 a {
-    font-size: 8px;
-  }
-  #feature .feature--more__budget--card3 {
-    padding: 15px 20px;
-    width: 70px;
-    height: 80px;
-    margin-top: 65px;
-  }
-  #feature .feature--more__budget--card3 h1 {
-    font-size: 8px;
-  }
-  #feature .feature--more__budget--card3 p {
-    font-size: 7px;
-    padding: 10px 0;
-  }
-  #feature .feature--more__budget--card3 a {
-    font-size: 8px;
-  }
-  #techno .techno--tittle {
-    font-size: 25px;
-  }
-  #techno .techno--servers__cloud h1 {
-    font-size: 70px;
-  }
-  #techno .techno--servers__cloud .icon {
-    font-size: 30px;
-    padding: 42px 0 0 0;
-  }
-  #techno .techno--servers__cloud h2 {
-    font-size: 12px;
-  }
-  #techno .techno--servers__cloud h3 {
-    font-size: 8px;
-  }
-  #techno .techno--servers__secure h1 {
-    font-size: 70px;
-  }
-  #techno .techno--servers__secure .icon {
-    font-size: 30px;
-    padding: 42px 0 0 0;
-  }
-  #techno .techno--servers__secure h2 {
-    font-size: 12px;
-  }
-  #techno .techno--servers__secure h3 {
-    font-size: 8px;
-  }
-  #techno .techno--servers__pdf h1 {
-    font-size: 70px;
-  }
-  #techno .techno--servers__pdf .icon {
-    font-size: 30px;
-    padding: 42px 0 0 0;
-  }
-  #techno .techno--servers__pdf h2 {
-    font-size: 12px;
-  }
-  #techno .techno--servers__pdf h3 {
-    font-size: 9px;
-  }
-  #techno .techno--servers__csv h1 {
-    font-size: 70px;
-  }
-  #techno .techno--servers__csv .icon {
-    font-size: 30px;
-    padding: 42px 0 0 0;
-  }
-  #techno .techno--servers__csv h2 {
-    font-size: 12px;
-  }
-  #techno .techno--servers__csv h3 {
-    font-size: 8px;
-  }
-  #hero .hero--general {
-    display: none;
-  }
-  #hero .hero--menu {
-    display: none;
-  }
-  #budget .budget {
+@media (max-width: 576px) and (max-width: 700px) {
+  #hero .hero__hamburger__menu .menu-button-container {
     display: flex;
+  }
+  #hero .hero__hamburger__menu .menu {
+    position: absolute;
+    top: 0;
+    margin-top: 50px;
+    left: 0;
     flex-direction: column;
-  }
-  #budget .budget--water ion-icon {
-    width: 53px;
-    margin: 0 -30px;
-  }
-  #budget .budget--water img {
-    width: 295px;
-    height: 197px;
-  }
-  #budget .budget--use__dox {
-    font-size: 13px;
     width: 100%;
+    justify-content: center;
+    align-items: center;
   }
-  #budget .budget--use__work {
-    padding: 24px 0;
-    font-size: 28px;
+  #hero .hero__hamburger__menu #menu-toggle ~ .menu li {
+    height: 0;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);
   }
-  #project {
-    height: 424px;
+  #hero .hero__hamburger__menu #menu-toggle:checked ~ .menu li {
+    border: 1px solid #333;
+    height: 2.5em;
+    padding: 0.5em;
+    transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);
   }
-  #project .project--budget__circle {
-    font-size: 40px;
+  #hero .hero__hamburger__menu .menu > li {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0.5em 0;
+    width: 100%;
+    color: white;
+    background-color: rgba(68, 68, 68, 0);
+  }
+  #hero .hero__hamburger__menu .menu > li:not(:last-child) {
+    border-bottom: 1px solid #444;
   }
 }
 @media (max-width: 414px) {
-  #feature .feature--more__support--card1 {
-    padding: 9px 10px;
-    width: 76px;
-    height: 65px;
-    margin-top: 58px;
-  }
-  #feature .feature--more__support--card1 p {
-    padding: 7px 0;
-  }
-  #feature .feature--more__manage--card2 {
-    padding: 9px 10px;
-    width: 76px;
-    height: 65px;
-    margin-top: 58px;
-  }
-  #feature .feature--more__manage--card2 p {
-    padding: 7px 0;
-  }
-  #feature .feature--more__budget--card3 {
-    padding: 9px 10px;
-    width: 76px;
-    height: 65px;
-    margin-top: 58px;
-  }
-  #feature .feature--more__budget--card3 h1 {
-    font-size: 7px;
-  }
-  #feature .feature--more__budget--card3 p {
-    padding: 7px 0;
+  #stay .stay .swiper {
+    width: 220px;
+    height: 180px;
   }
 }
 @media (max-width: 380px) {
-  #stay .stay .swiper {
-    width: 300px;
-    height: 200px;
+  #stay .stay--focused__cite {
+    font-size: 9px;
+  }
+  #stay .stay--focused__saving {
+    font-size: 18px;
+  }
+  #software .software--visa {
+    align-items: baseline;
   }
   #software .software--visa__overview {
-    font-size: 10px;
+    font-size: 8px;
   }
   #software .software--visa__overview a {
     margin: 13px 0 0 0;
-    font-size: 9px;
+    font-size: 6px;
   }
   #software .software--visa__overview--sylka img {
     width: 10px;
@@ -651,112 +268,47 @@
     font-size: 11px;
     margin: 0 12px;
   }
+  #software .software--visa__address--pipang {
+    font-size: 6px;
+  }
   #software .software--visa__address--features {
     font-size: 10px;
   }
+  #software .software--cloub {
+    font-size: 9px;
+    padding: 5px 12px;
+  }
+  #contact .contact--money__below {
+    font-size: 25px;
+  }
+  #contact .contact--money__belows {
+    font-size: 13px;
+  }
+  #contact .contact--help__request--own__input {
+    width: 130px;
+    height: 41px;
+    font-size: 12px;
+  }
+  #contact .contact--help__request--inputs {
+    width: 292px;
+    height: 38px;
+    font-size: 12px;
+  }
   #contact .contact--help__request--btn {
-    margin: 0 0 0 79px;
+    width: 145px;
+    height: 44px;
+    margin: 0 0 0 74px;
   }
 }
 @media (max-width: 360px) {
-  #budget .budget--use__work {
-    padding: 9px 0;
-    font-size: 20px;
-  }
   #stay .stay .swiper {
     width: 205px;
     height: 180px;
   }
 }
 @media (max-width: 320px) {
-  #feature {
-    padding: 20px 0 90px 0;
-  }
-  #feature .feature--more {
-    flex-direction: column;
-  }
-  #feature .feature--more__support img {
-    width: 70%;
-  }
-  #feature .feature--more__support--own__input {
-    width: 140px;
-    font-size: 10px;
-  }
-  #feature .feature--more__support--inputs {
-    width: 312px;
-    height: 38px;
-  }
-  #techno .techno--servers__cloud h1 {
-    font-size: 55px;
-  }
-  #techno .techno--servers__cloud .icon {
-    font-size: 23px;
-  }
-  #techno .techno--servers__cloud h2 {
-    font-size: 10px;
-  }
-  #techno .techno--servers__cloud h3 {
-    font-size: 7px;
-    width: 80%;
-  }
-  #techno .techno--servers__secure h1 {
-    font-size: 55px;
-  }
-  #techno .techno--servers__secure .icon {
-    font-size: 23px;
-  }
-  #techno .techno--servers__secure h2 {
-    font-size: 10px;
-  }
-  #techno .techno--servers__secure h3 {
-    font-size: 7px;
-    width: 80%;
-  }
-  #techno .techno--servers__pdf h1 {
-    font-size: 55px;
-  }
-  #techno .techno--servers__pdf .icon {
-    font-size: 23px;
-  }
-  #techno .techno--servers__pdf h2 {
-    font-size: 10px;
-  }
-  #techno .techno--servers__pdf h3 {
-    font-size: 7px;
-    width: 80%;
-  }
-  #techno .techno--servers__csv h1 {
-    font-size: 55px;
-  }
-  #techno .techno--servers__csv .icon {
-    font-size: 23px;
-  }
-  #techno .techno--servers__csv h2 {
-    font-size: 10px;
-  }
-  #techno .techno--servers__csv h3 {
-    font-size: 7px;
-    width: 80%;
-  }
   #contact .contact--help__request--inputs {
     width: 300px;
-  }
-  #project .project--budget__circle {
-    font-size: 30px;
-  }
-  #project .project--budget__pro {
-    margin: 33px 0;
-    font-size: 12px;
-  }
-  #budget .budget--use__dox {
-    font-size: 10px;
-  }
-  #budget .budget--water ion-icon {
-    width: 47px;
-    margin: 0 -26px;
-  }
-  #budget .budget--water img {
-    width: 259px;
   }
 }
 
