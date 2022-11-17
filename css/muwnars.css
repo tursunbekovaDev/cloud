@@ -1,3 +1,178 @@
-
+@media (max-width: 1024px) {
+  #budget .budget--water img {
+    width: 402px;
+    height: 273px;
+    border-radius: 6px;
+  }
+  #budget .budget--use__dox {
+    font-size: 12px;
+    width: 85%;
+  }
+  #budget .budget--use__work {
+    padding: 23px 0;
+    font-size: 30px;
+    line-height: 33px;
+  }
+}
+@media (max-width: 992px) {
+  #hero .hero--menu {
+    width: 60%;
+  }
+  #project .project--budget__btns:hover {
+    width: 155px;
+    height: 54px;
+  }
+  #project .project--budget__btns {
+    width: 139px;
+    height: 45px;
+  }
+  #project .project__circle {
+    font-size: 70px;
+  }
+}
+@media (max-width: 768px) {
+  #hero .hero {
+    padding: 68px 0 0 0;
+  }
+  #hero .hero--general__btn {
+    width: 75px;
+    height: 31px;
+    margin: 0 -4px;
+  }
+  #hero .hero--menu {
+    width: 60%;
+    font-size: 12px;
+  }
+  #hero .hero--cloud {
+    width: 25%;
+    font-size: 15px;
+  }
+  #project {
+    height: 465px;
+  }
+  #project .project--budget__circle {
+    font-size: 60px;
+  }
+  #budget .budget--use__fox {
+    font-size: 13px;
+  }
+  #budget .budget--use__dox {
+    font-size: 10px;
+    width: 95%;
+  }
+  #budget .budget--use__work {
+    padding: 34px 0;
+    font-size: 25px;
+  }
+  #budget .budget--water ion-icon {
+    width: 47px;
+    height: 88px;
+    margin: 0 0 0 -26px;
+  }
+  #budget .budget--water img {
+    width: 277px;
+    height: 230px;
+  }
+}
+@media (max-width: 576px) {
+  #hero .hero {
+    padding: 25px 0 0 0;
+  }
+  #hero .hero--general img {
+    width: 20px;
+  }
+  #hero .hero--general__btn {
+    width: 56px;
+    height: 26px;
+    margin: 0 -5px;
+  }
+  #hero .hero--menu {
+    width: 70%;
+    font-size: 9px;
+  }
+  #hero .hero--cloud {
+    width: 25%;
+    font-size: 11px;
+  }
+  #budget .budget--use__dox {
+    font-size: 7px;
+    width: 95%;
+  }
+  #budget .budget--use__work {
+    line-height: 23px;
+    padding: 3px 0;
+    font-size: 18px;
+  }
+  #budget .budget--water ion-icon {
+    width: 30px;
+    margin: 0 -18px;
+  }
+  #budget .budget--water img {
+    width: 178px;
+    height: 158px;
+  }
+  #project .project--budget__circle {
+    font-size: 50px;
+  }
+}
+@media (max-width: 450px) {
+  #hero .hero--general {
+    display: none;
+  }
+  #hero .hero--menu {
+    display: none;
+  }
+  #budget .budget {
+    display: flex;
+    flex-direction: column;
+  }
+  #budget .budget--water ion-icon {
+    width: 53px;
+    margin: 0 -30px;
+  }
+  #budget .budget--water img {
+    width: 295px;
+    height: 197px;
+  }
+  #budget .budget--use__dox {
+    font-size: 13px;
+    width: 100%;
+  }
+  #budget .budget--use__work {
+    padding: 24px 0;
+    font-size: 28px;
+  }
+  #project {
+    height: 424px;
+  }
+  #project .project--budget__circle {
+    font-size: 40px;
+  }
+}
+@media (max-width: 360px) {
+  #budget .budget--use__work {
+    padding: 9px 0;
+    font-size: 20px;
+  }
+}
+@media (max-width: 320px) {
+  #project .project--budget__circle {
+    font-size: 30px;
+  }
+  #project .project--budget__pro {
+    margin: 33px 0;
+    font-size: 12px;
+  }
+  #budget .budget--use__dox {
+    font-size: 10px;
+  }
+  #budget .budget--water ion-icon {
+    width: 47px;
+    margin: 0 -26px;
+  }
+  #budget .budget--water img {
+    width: 259px;
+  }
+}
 
 /*# sourceMappingURL=muwnars.css.map */
