@@ -9,6 +9,99 @@
 a{
   text-decoration: none;
 }
+
+
+@mixin shrift{
+  font-family: 'Lato', sans-serif;
+
+}
+@mixin evenly{
+  display: flex;
+  justify-content: space-evenly;
+}
+@mixin margin{
+  margin: 20px 0 20px 0;
+
+}
+
+@mixin shrift {
+  font-family: 'Lato', sans-serif;
+
+}
+
+@mixin evenly {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+@mixin margin {
+  margin: 20px 0 20px 0;
+
+}
+
+@mixin alin {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+@mixin column{
+  display: flex;
+  flex-direction: column;
+}
+@mixin between{
+  display: flex;
+  justify-content: space-between;
+}
+@mixin around{
+  display: flex;
+  justify-content: space-around;
+}
+
+
+@mixin column {
+  display: flex;
+  flex-direction: column;
+}
+
+@mixin between {
+  display: flex;
+  justify-content: space-between;
+}
+
+@mixin around {
+  display: flex;
+  justify-content: space-around;
+}
+
+@mixin center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@mixin border{
+  border-radius: 6px;
+  font-size: 20px;
+}
+@mixin size {
+  font-size: 46px;
+
+}
+
+@mixin border {
+  border-radius: 6px;
+  font-size: 20px;
+}
+
+@mixin size {
+  font-size: 46px;
+}
+
+@mixin align {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
 @mixin align{
   display: flex;
   justify-content: space-evenly;

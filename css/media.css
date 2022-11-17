@@ -1,3 +1,1104 @@
-
+@media (max-width: 1200px) {
+  #software .software--visa {
+    padding: 115px 0 0 0;
+  }
+  #software .software--cloub {
+    padding: 10px 0 0 42px;
+  }
+  #feature .feature--more__support--card1 {
+    height: 125px;
+  }
+  #feature .feature--more__support--card1 p {
+    font-size: 16px;
+    padding: 16px 0;
+  }
+  #feature .feature--more__manage--card2 {
+    height: 125px;
+  }
+  #feature .feature--more__manage--card2 p {
+    font-size: 16px;
+    padding: 16px 0;
+  }
+  #feature .feature--more__budget--card3 {
+    height: 125px;
+  }
+  #feature .feature--more__budget--card3 p {
+    font-size: 16px;
+    padding: 16px 0;
+  }
+  #techno {
+    padding: 0 0 100px 0;
+  }
+  #techno .techno--servers__cloud .icon {
+    padding: 85px 0 0 0;
+  }
+  #techno .techno--servers__cloud h3 {
+    font-size: 10px;
+    width: 60%;
+  }
+  #techno .techno--servers__secure .icon {
+    padding: 85px 0 0 0;
+  }
+  #techno .techno--servers__secure h3 {
+    font-size: 10px;
+    width: 60%;
+  }
+  #techno .techno--servers__pdf .icon {
+    padding: 85px 0 0 0;
+  }
+  #techno .techno--servers__pdf h3 {
+    font-size: 10px;
+    width: 60%;
+  }
+  #techno .techno--servers__csv .icon {
+    padding: 85px 0 0 0;
+  }
+  #techno .techno--servers__csv h3 {
+    font-size: 10px;
+    width: 60%;
+  }
+}
+@media (max-width: 1145px) {
+  #feature .feature--more__support--card1 {
+    padding: 30px 20px;
+    width: 230px;
+  }
+  #feature .feature--more__manage--card2 {
+    padding: 30px 20px;
+    width: 230px;
+  }
+  #feature .feature--more__manage--card2 p {
+    font-size: 15px;
+  }
+  #feature .feature--more__budget--card3 {
+    padding: 30px 20px;
+    width: 230px;
+  }
+  #feature .feature--more__budget--card3 h1 {
+    font-size: 22px;
+  }
+}
+@media (max-width: 1060px) {
+  #feature .feature--more__support--card1 {
+    margin-top: 155px;
+    width: 205px;
+  }
+  #feature .feature--more__support--card1 h1 {
+    font-size: 20px;
+  }
+  #feature .feature--more__support--card1 p {
+    font-size: 15px;
+  }
+  #feature .feature--more__manage--card2 {
+    margin-top: 155px;
+    width: 205px;
+  }
+  #feature .feature--more__manage--card2 h1 {
+    font-size: 20px;
+  }
+  #feature .feature--more__manage--card2 p {
+    font-size: 13px;
+    padding: 18px 0;
+  }
+  #feature .feature--more__budget--card3 {
+    margin-top: 155px;
+    width: 205px;
+  }
+  #feature .feature--more__budget--card3 h1 {
+    font-size: 20px;
+  }
+  #feature .feature--more__budget--card3 p {
+    font-size: 15px;
+  }
+}
+@media (max-width: 1024px) {
+  #stay .stay--focused__img img {
+    width: 30%;
+  }
+  #stay .stay--focused__cite {
+    font-size: 14px;
+  }
+  #stay .stay--focused__saving {
+    font-size: 37px;
+  }
+  #feature .feature--more__support img {
+    width: 90%;
+  }
+  #feature .feature--more__support--card1 {
+    width: 185px;
+    height: 143px;
+    margin-top: 144px;
+  }
+  #feature .feature--more__support--card1 h1 {
+    font-size: 19px;
+  }
+  #feature .feature--more__support--card1 p {
+    padding: 20px 0;
+  }
+  #feature .feature--more__manage img {
+    width: 90%;
+  }
+  #feature .feature--more__manage--card2 {
+    width: 185px;
+    height: 143px;
+    margin-top: 144px;
+  }
+  #feature .feature--more__manage--card2 h1 {
+    font-size: 19px;
+  }
+  #feature .feature--more__manage--card2 p {
+    padding: 20px 0;
+  }
+  #feature .feature--more__budget img {
+    width: 90%;
+  }
+  #feature .feature--more__budget--card3 {
+    width: 185px;
+    height: 143px;
+    margin-top: 144px;
+  }
+  #feature .feature--more__budget--card3 h1 {
+    font-size: 19px;
+  }
+  #feature .feature--more__budget--card3 p {
+    padding: 20px 0;
+  }
+  #budget .budget--water img {
+    width: 402px;
+    height: 273px;
+    border-radius: 6px;
+  }
+  #budget .budget--use__dox {
+    font-size: 12px;
+    width: 85%;
+  }
+  #budget .budget--use__work {
+    padding: 23px 0;
+    font-size: 30px;
+    line-height: 33px;
+  }
+}
+@media (max-width: 992px) {
+  #hero .hero--menu {
+    width: 60%;
+  }
+  #project .project--budget__btns:hover {
+    width: 155px;
+    height: 54px;
+  }
+  #project .project--budget__btns {
+    width: 139px;
+    height: 45px;
+  }
+  #project .project__circle {
+    font-size: 70px;
+  }
+}
+@media (max-width: 900px) {
+  #feature {
+    padding: 50px 0 220px 0;
+  }
+  #feature .feature--more__support--card1 {
+    width: 150px;
+    height: 115px;
+    margin-top: 128px;
+  }
+  #feature .feature--more__support--card1 h1 {
+    font-size: 15px;
+  }
+  #feature .feature--more__support--card1 p {
+    font-size: 11px;
+  }
+  #feature .feature--more__manage--card2 {
+    width: 150px;
+    height: 115px;
+    margin-top: 128px;
+  }
+  #feature .feature--more__manage--card2 h1 {
+    font-size: 15px;
+  }
+  #feature .feature--more__manage--card2 p {
+    font-size: 11px;
+    padding: 14px 0;
+  }
+  #feature .feature--more__budget--card3 {
+    width: 150px;
+    height: 115px;
+    margin-top: 128px;
+  }
+  #feature .feature--more__budget--card3 h1 {
+    font-size: 15px;
+  }
+  #feature .feature--more__budget--card3 p {
+    font-size: 11px;
+  }
+  #techno .techno--servers__cloud h1 {
+    font-size: 130px;
+  }
+  #techno .techno--servers__cloud .icon {
+    font-size: 50px;
+  }
+  #techno .techno--servers__cloud h2 {
+    font-size: 20px;
+  }
+  #techno .techno--servers__secure h1 {
+    font-size: 130px;
+  }
+  #techno .techno--servers__secure .icon {
+    font-size: 50px;
+  }
+  #techno .techno--servers__secure h2 {
+    font-size: 20px;
+  }
+  #techno .techno--servers__pdf h1 {
+    font-size: 130px;
+  }
+  #techno .techno--servers__pdf .icon {
+    font-size: 50px;
+  }
+  #techno .techno--servers__pdf h2 {
+    font-size: 20px;
+  }
+  #techno .techno--servers__csv h1 {
+    font-size: 130px;
+  }
+  #techno .techno--servers__csv .icon {
+    font-size: 50px;
+  }
+  #techno .techno--servers__csv h2 {
+    font-size: 20px;
+  }
+}
+@media (max-width: 768px) {
+  #stay .stay--focused {
+    width: 100%;
+  }
+  #stay .stay--focused__cite {
+    font-size: 12px;
+    width: 85%;
+    margin: 34px 0 25px 38px;
+  }
+  #stay .stay--focused__saving {
+    font-size: 30px;
+  }
+  #stay .stay--focused .swiper {
+    width: 35%;
+  }
+  #contact {
+    height: 420px;
+  }
+  #contact .contact--money__below {
+    font-size: 30px;
+  }
+  #contact .contact--help__request--inputs {
+    width: 372px;
+    height: 44px;
+    font-size: 15px;
+    margin: 2px 0 20px 0;
+  }
+  #contact .contact--help__request--own__input {
+    width: 168px;
+    height: 41px;
+    font-size: 15px;
+    margin: 0 0 20px 0;
+  }
+  #software .software--cloub {
+    font-size: 12px;
+  }
+  #software .software--visa {
+    display: flex;
+    justify-content: space-between;
+  }
+  #software .software--visa__overview a {
+    margin: 13px 0 0 0;
+    font-size: 12px;
+  }
+  #software .software--visa__address img {
+    width: 70%;
+  }
+  #software .software--visa__address--features {
+    font-size: 16px;
+  }
+  #software .software--visa__address--pipang {
+    font-size: 11px;
+    margin: 13px 0 0 0;
+  }
+  #feature {
+    padding: 50px 0 160px 0;
+  }
+  #feature .feature--center {
+    font-size: 40px;
+  }
+  #feature .feature--more__support--card1 {
+    width: 145px;
+    height: 100px;
+    margin-top: 114px;
+    padding: 17px 15px;
+  }
+  #feature .feature--more__support--card1 h1 {
+    font-size: 15px;
+  }
+  #feature .feature--more__support--card1 p {
+    font-size: 10px;
+    padding: 15px 0;
+  }
+  #feature .feature--more__manage--card2 {
+    width: 145px;
+    height: 100px;
+    margin-top: 114px;
+    padding: 17px 15px;
+  }
+  #feature .feature--more__manage--card2 h1 {
+    font-size: 15px;
+  }
+  #feature .feature--more__manage--card2 p {
+    font-size: 9px;
+  }
+  #feature .feature--more__budget--card3 {
+    width: 145px;
+    height: 100px;
+    margin-top: 114px;
+    padding: 17px 15px;
+  }
+  #feature .feature--more__budget--card3 h1 {
+    font-size: 14px;
+  }
+  #feature .feature--more__budget--card3 p {
+    font-size: 10px;
+    padding: 16px 0;
+  }
+  #techno .techno--tittle {
+    font-size: 40px;
+  }
+  #techno .techno--servers__cloud h1 {
+    font-size: 100px;
+  }
+  #techno .techno--servers__cloud .icon {
+    font-size: 35px;
+    padding: 75px 0 0 0;
+  }
+  #techno .techno--servers__secure h1 {
+    font-size: 100px;
+  }
+  #techno .techno--servers__secure .icon {
+    font-size: 35px;
+    padding: 75px 0 0 0;
+  }
+  #techno .techno--servers__pdf h1 {
+    font-size: 100px;
+  }
+  #techno .techno--servers__pdf .icon {
+    font-size: 35px;
+    padding: 75px 0 0 0;
+  }
+  #techno .techno--servers__csv h1 {
+    font-size: 100px;
+  }
+  #techno .techno--servers__csv .icon {
+    font-size: 35px;
+    padding: 75px 0 0 0;
+  }
+  #hero .hero {
+    padding: 68px 0 0 0;
+  }
+  #hero .hero--general__btn {
+    width: 75px;
+    height: 31px;
+    margin: 0 -4px;
+  }
+  #hero .hero--menu {
+    width: 60%;
+    font-size: 12px;
+  }
+  #hero .hero--cloud {
+    width: 25%;
+    font-size: 15px;
+  }
+  #project {
+    height: 465px;
+  }
+  #project .project--budget__circle {
+    font-size: 60px;
+  }
+  #budget .budget--use__fox {
+    font-size: 13px;
+  }
+  #budget .budget--use__dox {
+    font-size: 10px;
+    width: 95%;
+  }
+  #budget .budget--use__work {
+    padding: 34px 0;
+    font-size: 25px;
+  }
+  #budget .budget--water ion-icon {
+    width: 47px;
+    height: 88px;
+    margin: 0 0 0 -26px;
+  }
+  #budget .budget--water img {
+    width: 277px;
+    height: 230px;
+  }
+}
+@media (max-width: 688px) {
+  #feature .feature--more__support--card1 {
+    width: 128px;
+    height: 95px;
+    margin-top: 97px;
+    padding: 12px 6px;
+  }
+  #feature .feature--more__support--card1 h1 {
+    font-size: 11px;
+  }
+  #feature .feature--more__support--card1 p {
+    font-size: 9px;
+  }
+  #feature .feature--more__manage--card2 {
+    width: 128px;
+    height: 95px;
+    margin-top: 97px;
+    padding: 12px 6px;
+  }
+  #feature .feature--more__manage h1 {
+    font-size: 11px;
+  }
+  #feature .feature--more__manage p {
+    font-size: 9px;
+    padding: 10px 0;
+  }
+  #feature .feature--more__budget--card3 {
+    width: 128px;
+    height: 95px;
+    margin-top: 97px;
+    padding: 12px 6px;
+  }
+  #feature .feature--more__budget h1 {
+    font-size: 11px;
+  }
+  #feature .feature--more__budget p {
+    font-size: 9px;
+  }
+  #techno .techno--servers__cloud h2 {
+    font-size: 16px;
+  }
+  #techno .techno--servers__secure h2 {
+    font-size: 16px;
+  }
+  #techno .techno--servers__pdf h2 {
+    font-size: 16px;
+  }
+  #techno .techno--servers__csv h2 {
+    font-size: 16px;
+  }
+}
+@media (max-width: 576px) {
+  #stay .stay {
+    flex-direction: column;
+    text-align: center;
+  }
+  #stay .stay--focused {
+    width: 100%;
+  }
+  #stay .stay--focused__img {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+  }
+  #stay .stay--focused__img img {
+    padding: 0 0 20px 80px;
+    width: 18%;
+  }
+  #stay .stay--focused__cite {
+    font-size: 12px;
+    width: 85%;
+    margin: 34px 0 25px 38px;
+  }
+  #stay .stay--focused__saving {
+    font-size: 30px;
+  }
+  #stay .stay--focused .swiper {
+    width: 35%;
+  }
+  #contact .contact--help__request--btn {
+    margin: 0 0 0 100px;
+  }
+  #contact .contact--money__belows {
+    width: 100%;
+  }
+  #contact .contact {
+    flex-direction: column;
+    display: flex;
+    text-align: center;
+  }
+  #contact .contact--money__below {
+    font-size: 30px;
+  }
+  #contact .contact--help__request--inputs {
+    width: 372px;
+    height: 44px;
+    font-size: 15px;
+    margin: 2px 0 20px 0;
+  }
+  #contact .contact--help__request--own__input {
+    width: 168px;
+    height: 41px;
+    font-size: 15px;
+    margin: 0 0 20px 0;
+  }
+  #software .software--cloub {
+    font-size: 12px;
+  }
+  #software .software--visa__overview {
+    font-size: 12px;
+  }
+  #software .software--visa__overview a {
+    margin: 13px 0 0 0;
+    font-size: 12px;
+  }
+  #software .software--visa__address {
+    font-size: 11px;
+    margin: 0 12px;
+  }
+  #software .software--visa__address img {
+    width: 50%;
+  }
+  #software .software--visa__address--features {
+    font-size: 16px;
+  }
+  #software .software--visa__address--pipang {
+    font-size: 9px;
+  }
+  #feature {
+    padding: 0 0 160px;
+  }
+  #feature .feature--more__support--card1 {
+    width: 95px;
+    height: 95px;
+    margin-top: 80px;
+  }
+  #feature .feature--more__support--card1 h1 {
+    font-size: 11px;
+  }
+  #feature .feature--more__support--card1 p {
+    font-size: 10px;
+    padding: 5px 0;
+  }
+  #feature .feature--more__manage--card2 {
+    width: 95px;
+    height: 95px;
+    margin-top: 80px;
+  }
+  #feature .feature--more__manage--card2 h1 {
+    font-size: 12px;
+  }
+  #feature .feature--more__manage--card2 p {
+    font-size: 10px;
+    padding: 5px 0;
+  }
+  #feature .feature--more__budget--card3 {
+    width: 95px;
+    height: 95px;
+    margin-top: 80px;
+  }
+  #feature .feature--more__budget--card3 h1 {
+    font-size: 11px;
+  }
+  #feature .feature--more__budget--card3 p {
+    font-size: 10px;
+    padding: 5px 0;
+  }
+  #techno .techno--servers {
+    align-items: start;
+  }
+  #techno .techno--servers__cloud .icon {
+    font-size: 35px;
+    padding: 63px 0 0 0;
+  }
+  #techno .techno--servers__cloud h2 {
+    font-size: 15px;
+  }
+  #techno .techno--servers__cloud h3 {
+    padding: 10px 0 0 0;
+  }
+  #techno .techno--servers__secure .icon {
+    font-size: 35px;
+    padding: 63px 0 0 0;
+  }
+  #techno .techno--servers__secure h2 {
+    font-size: 15px;
+  }
+  #techno .techno--servers__secure h3 {
+    padding: 10px 0 0 0;
+  }
+  #techno .techno--servers__pdf .icon {
+    font-size: 35px;
+    padding: 63px 0 0 0;
+  }
+  #techno .techno--servers__pdf h2 {
+    font-size: 15px;
+  }
+  #techno .techno--servers__pdf p {
+    font-size: 10px;
+    padding: 5px 0;
+  }
+  #techno .techno--servers__csv .icon {
+    font-size: 35px;
+    padding: 63px 0 0 0;
+  }
+  #techno .techno--servers__csv h2 {
+    font-size: 15px;
+  }
+  #techno .techno--servers__csv h3 {
+    padding: 10px 0 0 0;
+  }
+  #hero .hero {
+    padding: 25px 0 0 0;
+  }
+  #hero .hero--general img {
+    width: 20px;
+  }
+  #hero .hero--general__btn {
+    width: 56px;
+    height: 26px;
+    margin: 0 -5px;
+  }
+  #hero .hero--menu {
+    width: 70%;
+    font-size: 9px;
+  }
+  #hero .hero--cloud {
+    width: 25%;
+    font-size: 11px;
+  }
+  #budget .budget--use__dox {
+    font-size: 7px;
+    width: 95%;
+  }
+  #budget .budget--use__work {
+    line-height: 23px;
+    padding: 3px 0;
+    font-size: 18px;
+  }
+  #budget .budget--water ion-icon {
+    width: 30px;
+    margin: 0 -18px;
+  }
+  #budget .budget--water img {
+    width: 178px;
+    height: 158px;
+  }
+  #project .project--budget__circle {
+    font-size: 50px;
+  }
+}
+@media (max-width: 516px) {
+  #techno .techno--servers {
+    flex-direction: column;
+    align-items: center;
+  }
+  #techno .techno--servers__cloud {
+    padding: 0 200px 0 0;
+  }
+  #techno .techno--servers__cloud h2 {
+    font-size: 12px;
+  }
+  #techno .techno--servers__secure {
+    padding: 0 0 0 200px;
+  }
+  #techno .techno--servers__secure h2 {
+    font-size: 12px;
+  }
+  #techno .techno--servers__pdf {
+    padding: 0 200px 0 0;
+  }
+  #techno .techno--servers__pdf h2 {
+    font-size: 12px;
+  }
+  #techno .techno--servers__csv {
+    padding: 0 0 0 200px;
+  }
+  #techno .techno--servers__csv h2 {
+    font-size: 12px;
+  }
+}
+@media (max-width: 450px) {
+  #feature {
+    padding: 20px 0 130px 0;
+  }
+  #feature .feature--center {
+    font-size: 25px;
+  }
+  #feature .feature--more__support--card1 {
+    padding: 15px 20px;
+    width: 60px;
+    height: 80px;
+    margin-top: 65px;
+  }
+  #feature .feature--more__support--card1 h1 {
+    font-size: 6px;
+  }
+  #feature .feature--more__support--card1 p {
+    font-size: 7px;
+    padding: 10px 0;
+  }
+  #feature .feature--more__support--card1 a {
+    font-size: 8px;
+  }
+  #feature .feature--more__manage--card2 {
+    padding: 15px 20px;
+    width: 60px;
+    height: 80px;
+    margin-top: 65px;
+  }
+  #feature .feature--more__manage--card2 h1 {
+    font-size: 6px;
+  }
+  #feature .feature--more__manage--card2 p {
+    font-size: 7px;
+    padding: 10px 0;
+  }
+  #feature .feature--more__manage--card2 a {
+    font-size: 8px;
+  }
+  #feature .feature--more__budget--card3 {
+    padding: 15px 20px;
+    width: 60px;
+    height: 80px;
+    margin-top: 65px;
+  }
+  #feature .feature--more__budget--card3 h1 {
+    font-size: 6px;
+  }
+  #feature .feature--more__budget--card3 p {
+    font-size: 7px;
+    padding: 10px 0;
+  }
+  #feature .feature--more__budget--card3 a {
+    font-size: 8px;
+  }
+  #techno .techno--tittle {
+    font-size: 25px;
+  }
+  #techno .techno--servers__cloud h1 {
+    font-size: 70px;
+  }
+  #techno .techno--servers__cloud .icon {
+    font-size: 30px;
+    padding: 42px 0 0 0;
+  }
+  #techno .techno--servers__cloud h2 {
+    font-size: 12px;
+  }
+  #techno .techno--servers__cloud h3 {
+    font-size: 8px;
+  }
+  #techno .techno--servers__secure h1 {
+    font-size: 70px;
+  }
+  #techno .techno--servers__secure .icon {
+    font-size: 30px;
+    padding: 42px 0 0 0;
+  }
+  #techno .techno--servers__secure h2 {
+    font-size: 12px;
+  }
+  #techno .techno--servers__secure h3 {
+    font-size: 8px;
+  }
+  #techno .techno--servers__pdf h1 {
+    font-size: 70px;
+  }
+  #techno .techno--servers__pdf .icon {
+    font-size: 30px;
+    padding: 42px 0 0 0;
+  }
+  #techno .techno--servers__pdf h2 {
+    font-size: 12px;
+  }
+  #techno .techno--servers__pdf h3 {
+    font-size: 9px;
+  }
+  #techno .techno--servers__csv h1 {
+    font-size: 70px;
+  }
+  #techno .techno--servers__csv .icon {
+    font-size: 30px;
+    padding: 42px 0 0 0;
+  }
+  #techno .techno--servers__csv h2 {
+    font-size: 12px;
+  }
+  #techno .techno--servers__csv h3 {
+    font-size: 8px;
+  }
+  #hero .hero--general {
+    display: none;
+  }
+  #hero .hero--menu {
+    display: none;
+  }
+  #budget .budget {
+    display: flex;
+    flex-direction: column;
+  }
+  #budget .budget--water ion-icon {
+    width: 53px;
+    margin: 0 -30px;
+  }
+  #budget .budget--water img {
+    width: 295px;
+    height: 197px;
+  }
+  #budget .budget--use__dox {
+    font-size: 13px;
+    width: 100%;
+  }
+  #budget .budget--use__work {
+    padding: 24px 0;
+    font-size: 28px;
+  }
+  #project {
+    height: 424px;
+  }
+  #project .project--budget__circle {
+    font-size: 40px;
+  }
+}
+@media (max-width: 414px) {
+  #stay .stay .swiper {
+    width: 220px;
+    height: 180px;
+  }
+  #feature .feature--more__support--card1 {
+    padding: 9px 10px;
+    width: 76px;
+    height: 65px;
+    margin-top: 58px;
+  }
+  #feature .feature--more__support--card1 h1 {
+    font-size: 8px;
+  }
+  #feature .feature--more__support--card1 p {
+    padding: 7px 0;
+  }
+  #feature .feature--more__manage--card2 {
+    padding: 9px 10px;
+    width: 76px;
+    height: 65px;
+    margin-top: 58px;
+  }
+  #feature .feature--more__manage--card2 h1 {
+    font-size: 8px;
+  }
+  #feature .feature--more__manage--card2 p {
+    padding: 7px 0;
+  }
+  #feature .feature--more__budget--card3 {
+    padding: 9px 10px;
+    width: 76px;
+    height: 65px;
+    margin-top: 58px;
+  }
+  #feature .feature--more__budget--card3 h1 {
+    font-size: 8px;
+  }
+  #feature .feature--more__budget--card3 h1 {
+    font-size: 7px;
+  }
+  #feature .feature--more__budget--card3 p {
+    padding: 7px 0;
+  }
+}
+@media (max-width: 380px) {
+  #stay .stay--focused__cite {
+    font-size: 9px;
+  }
+  #stay .stay--focused__saving {
+    font-size: 18px;
+  }
+  #software .software--visa {
+    align-items: baseline;
+  }
+  #software .software--visa__overview {
+    font-size: 8px;
+  }
+  #software .software--visa__overview a {
+    margin: 13px 0 0 0;
+    font-size: 6px;
+  }
+  #software .software--visa__overview--sylka img {
+    width: 10px;
+    height: 11px;
+  }
+  #software .software--visa__address {
+    font-size: 11px;
+    margin: 0 12px;
+  }
+  #software .software--visa__address--pipang {
+    font-size: 6px;
+  }
+  #software .software--visa__address--features {
+    font-size: 10px;
+  }
+  #software .software--cloub {
+    font-size: 9px;
+    padding: 5px 12px;
+  }
+  #contact .contact--money__below {
+    font-size: 25px;
+  }
+  #contact .contact--money__belows {
+    font-size: 13px;
+  }
+  #contact .contact--help__request--own__input {
+    width: 130px;
+    height: 41px;
+    font-size: 12px;
+  }
+  #contact .contact--help__request--inputs {
+    width: 292px;
+    height: 38px;
+    font-size: 12px;
+  }
+  #contact .contact--help__request--btn {
+    width: 145px;
+    height: 44px;
+    margin: 0 0 0 74px;
+  }
+  #feature .feature--more {
+    flex-direction: column;
+    align-items: center;
+  }
+  #feature .feature--more__support img {
+    width: 70%;
+  }
+  #feature .feature--more__support--card1 {
+    width: 140px;
+    height: 50px;
+    margin-top: 122px;
+  }
+  #feature .feature--more__manage {
+    padding: 80px 0;
+  }
+  #feature .feature--more__manage img {
+    width: 70%;
+  }
+  #feature .feature--more__manage--card2 {
+    width: 140px;
+    height: 50px;
+    margin-top: 122px;
+  }
+  #feature .feature--more__budget img {
+    width: 70%;
+  }
+  #feature .feature--more__budget--card3 {
+    width: 140px;
+    height: 50px;
+    margin-top: 122px;
+  }
+}
+@media (max-width: 360px) {
+  #stay .stay .swiper {
+    width: 205px;
+    height: 180px;
+  }
+  #budget .budget--use__work {
+    padding: 9px 0;
+    font-size: 20px;
+  }
+}
+@media (max-width: 320px) {
+  #contact .contact--help__request--inputs {
+    width: 300px;
+  }
+  #techno {
+    padding: 0 0 50px 0;
+  }
+  #techno .techno--servers {
+    flex-direction: column;
+  }
+  #techno .techno--servers__cloud {
+    padding: 0 150px 0 0;
+  }
+  #techno .techno--servers__cloud h1 {
+    font-size: 70px;
+  }
+  #techno .techno--servers__cloud .icon {
+    font-size: 30px;
+  }
+  #techno .techno--servers__cloud h2 {
+    font-size: 13px;
+  }
+  #techno .techno--servers__cloud h3 {
+    font-size: 10px;
+    width: 60%;
+  }
+  #techno .techno--servers__secure {
+    padding: 0 0 0 150px;
+  }
+  #techno .techno--servers__secure h1 {
+    font-size: 70px;
+  }
+  #techno .techno--servers__secure .icon {
+    font-size: 30px;
+  }
+  #techno .techno--servers__secure h2 {
+    font-size: 13px;
+  }
+  #techno .techno--servers__secure h3 {
+    font-size: 10px;
+    width: 60%;
+  }
+  #techno .techno--servers__pdf {
+    padding: 0 150px 0 0;
+  }
+  #techno .techno--servers__pdf h1 {
+    font-size: 70px;
+  }
+  #techno .techno--servers__pdf .icon {
+    font-size: 30px;
+  }
+  #techno .techno--servers__pdf h2 {
+    font-size: 13px;
+  }
+  #techno .techno--servers__pdf h3 {
+    font-size: 10px;
+    width: 60%;
+  }
+  #techno .techno--servers__csv {
+    padding: 0 0 0 150px;
+  }
+  #techno .techno--servers__csv h1 {
+    font-size: 70px;
+  }
+  #techno .techno--servers__csv .icon {
+    font-size: 30px;
+  }
+  #techno .techno--servers__csv h2 {
+    font-size: 13px;
+  }
+  #techno .techno--servers__csv h3 {
+    font-size: 10px;
+    width: 60%;
+  }
+  #project .project--budget__circle {
+    font-size: 30px;
+  }
+  #project .project--budget__pro {
+    margin: 33px 0;
+    font-size: 12px;
+  }
+  #budget .budget--use__dox {
+    font-size: 10px;
+  }
+  #budget .budget--water ion-icon {
+    width: 47px;
+    margin: 0 -26px;
+  }
+  #budget .budget--water img {
+    width: 259px;
+  }
+}
 
 /*# sourceMappingURL=media.css.map */
