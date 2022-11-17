@@ -16,7 +16,8 @@
         &__support {
           &--card1 {
             height: 125px;
-            p{
+
+            p {
               font-size: 16px;
               padding: 16px 0;
             }
@@ -26,7 +27,8 @@
         &__manage {
           &--card2 {
             height: 125px;
-            p{
+
+            p {
               font-size: 16px;
               padding: 16px 0;
             }
@@ -36,7 +38,8 @@
         &__budget {
           &--card3 {
             height: 125px;
-            p{
+
+            p {
               font-size: 16px;
               padding: 16px 0;
             }
@@ -99,29 +102,33 @@
 }
 
 @media (max-width: 1145px) {
-  #feature{
-    .feature{
-      &--more{
-        &__support{
-          &--card1{
+  #feature {
+    .feature {
+      &--more {
+        &__support {
+          &--card1 {
             padding: 30px 20px;
             width: 230px;
           }
         }
-        &__manage{
-          &--card2{
+
+        &__manage {
+          &--card2 {
             padding: 30px 20px;
             width: 230px;
-            p{
+
+            p {
               font-size: 15px;
             }
           }
         }
-        &__budget{
-          &--card3{
+
+        &__budget {
+          &--card3 {
             padding: 30px 20px;
             width: 230px;
-            h1{
+
+            h1 {
               font-size: 22px;
             }
           }
@@ -130,43 +137,52 @@
     }
   }
 }
+
 @media (max-width: 1060px) {
-  #feature{
-    .feature{
-      &--more{
-        &__support{
-          &--card1{
+  #feature {
+    .feature {
+      &--more {
+        &__support {
+          &--card1 {
             margin-top: 155px;
             width: 205px;
-            h1{
+
+            h1 {
               font-size: 20px;
             }
-            p{
+
+            p {
               font-size: 15px;
             }
           }
         }
-        &__manage{
-          &--card2{
+
+        &__manage {
+          &--card2 {
             margin-top: 155px;
             width: 205px;
-            h1{
+
+            h1 {
               font-size: 20px;
             }
-            p{
+
+            p {
               font-size: 13px;
               padding: 18px 0;
             }
           }
         }
-        &__budget{
-          &--card3{
+
+        &__budget {
+          &--card3 {
             margin-top: 155px;
             width: 205px;
-            h1{
+
+            h1 {
               font-size: 20px;
             }
-            p{
+
+            p {
               font-size: 15px;
             }
           }
@@ -175,6 +191,7 @@
     }
   }
 }
+
 @media (max-width: 1024px) {
   #stay {
     .stay {
@@ -204,13 +221,16 @@
           img {
             width: 90%;
           }
+
           &--card1 {
             width: 185px;
             height: 143px;
             margin-top: 144px;
-            h1{
+
+            h1 {
               font-size: 19px;
             }
+
             p {
               padding: 20px 0;
             }
@@ -226,9 +246,11 @@
             width: 185px;
             height: 143px;
             margin-top: 144px;
-            h1{
+
+            h1 {
               font-size: 19px;
             }
+
             p {
               padding: 20px 0;
             }
@@ -244,9 +266,11 @@
             width: 185px;
             height: 143px;
             margin-top: 144px;
-            h1{
+
+            h1 {
               font-size: 19px;
             }
+
             p {
               padding: 20px 0;
             }
@@ -282,6 +306,7 @@
   }
 }
 
+
 @media (max-width: 992px) {
   #hero {
     .hero {
@@ -312,47 +337,57 @@
   }
 
 }
+
 @media (max-width: 900px) {
-  #feature{
+  #feature {
     padding: 50px 0 220px 0;
-    .feature{
-      &--more{
-        &__support{
-          &--card1{
+
+    .feature {
+      &--more {
+        &__support {
+          &--card1 {
             width: 150px;
             height: 115px;
             margin-top: 128px;
-            h1{
+
+            h1 {
               font-size: 15px;
             }
-            p{
+
+            p {
               font-size: 11px;
             }
           }
         }
-        &__manage{
-          &--card2{
+
+        &__manage {
+          &--card2 {
             width: 150px;
             height: 115px;
             margin-top: 128px;
-            h1{
+
+            h1 {
               font-size: 15px;
             }
-            p{
+
+            p {
               font-size: 11px;
               padding: 14px 0;
             }
           }
         }
-        &__budget{
-          &--card3{
+
+        &__budget {
+          &--card3 {
             width: 150px;
             height: 115px;
             margin-top: 128px;
-            h1{
+
+            h1 {
               font-size: 15px;
             }
-            p{
+
+            p {
               font-size: 11px;
             }
           }
@@ -360,50 +395,61 @@
       }
     }
   }
-  #techno{
-    .techno{
-      &--servers{
-        &__cloud{
-          h1{
+  #techno {
+    .techno {
+      &--servers {
+        &__cloud {
+          h1 {
             font-size: 130px;
           }
-          .icon{
+
+          .icon {
             font-size: 50px;
           }
-          h2{
+
+          h2 {
             font-size: 20px;
           }
         }
-        &__secure{
-          h1{
+
+        &__secure {
+          h1 {
             font-size: 130px;
           }
-          .icon{
+
+          .icon {
             font-size: 50px;
           }
-          h2{
+
+          h2 {
             font-size: 20px;
           }
         }
-        &__pdf{
-          h1{
+
+        &__pdf {
+          h1 {
             font-size: 130px;
           }
-          .icon{
+
+          .icon {
             font-size: 50px;
           }
-          h2{
+
+          h2 {
             font-size: 20px;
           }
         }
-        &__csv{
-          h1{
+
+        &__csv {
+          h1 {
             font-size: 130px;
           }
-          .icon{
+
+          .icon {
             font-size: 50px;
           }
-          h2{
+
+          h2 {
             font-size: 20px;
           }
         }
@@ -411,6 +457,7 @@
     }
   }
 }
+
 @media (max-width: 768px) {
   #stay {
     .stay {
@@ -504,10 +551,12 @@
   }
   #feature {
     padding: 50px 0 160px 0;
+
     .feature {
-      &--center{
+      &--center {
         font-size: 40px;
       }
+
       &--more {
         &__support {
           &--card1 {
@@ -515,6 +564,7 @@
             height: 100px;
             margin-top: 114px;
             padding: 17px 15px;
+
             h1 {
               font-size: 15px;
             }
@@ -532,6 +582,7 @@
             height: 100px;
             margin-top: 114px;
             padding: 17px 15px;
+
             h1 {
               font-size: 15px;
             }
@@ -548,6 +599,7 @@
             height: 100px;
             margin-top: 114px;
             padding: 17px 15px;
+
             h1 {
               font-size: 14px;
             }
@@ -561,44 +613,52 @@
       }
     }
   }
-  #techno{
-    .techno{
-      &--tittle{
+  #techno {
+    .techno {
+      &--tittle {
         font-size: 40px;
       }
-      &--servers{
-        &__cloud{
-          h1{
+
+      &--servers {
+        &__cloud {
+          h1 {
             font-size: 100px;
           }
-          .icon{
+
+          .icon {
             font-size: 35px;
             padding: 75px 0 0 0;
           }
         }
-        &__secure{
-          h1{
+
+        &__secure {
+          h1 {
             font-size: 100px;
           }
-          .icon{
+
+          .icon {
             font-size: 35px;
             padding: 75px 0 0 0;
           }
         }
-        &__pdf{
-          h1{
+
+        &__pdf {
+          h1 {
             font-size: 100px;
           }
-          .icon{
+
+          .icon {
             font-size: 35px;
             padding: 75px 0 0 0;
           }
         }
-        &__csv{
-          h1{
+
+        &__csv {
+          h1 {
             font-size: 100px;
           }
-          .icon{
+
+          .icon {
             font-size: 35px;
             padding: 75px 0 0 0;
           }
@@ -678,77 +738,89 @@
     }
   }
 }
+
 @media (max-width: 688px) {
-  #feature{
-    .feature{
-      &--more{
-        &__support{
-          &--card1{
+  #feature {
+    .feature {
+      &--more {
+        &__support {
+          &--card1 {
             width: 128px;
             height: 95px;
             margin-top: 97px;
             padding: 12px 6px;
-            h1{
+
+            h1 {
               font-size: 11px;
             }
-            p{
+
+            p {
               font-size: 9px;
             }
           }
         }
-        &__manage{
-          &--card2{
+
+        &__manage {
+          &--card2 {
             width: 128px;
             height: 95px;
             margin-top: 97px;
             padding: 12px 6px;
           }
-          h1{
+
+          h1 {
             font-size: 11px;
           }
-          p{
+
+          p {
             font-size: 9px;
             padding: 10px 0;
 
           }
         }
-        &__budget{
-          &--card3{
+
+        &__budget {
+          &--card3 {
             width: 128px;
             height: 95px;
             margin-top: 97px;
             padding: 12px 6px;
           }
-          h1{
+
+          h1 {
             font-size: 11px;
           }
-          p{
+
+          p {
             font-size: 9px;
           }
         }
       }
     }
   }
-  #techno{
-    .techno{
-      &--servers{
-        &__cloud{
-          h2{
+  #techno {
+    .techno {
+      &--servers {
+        &__cloud {
+          h2 {
             font-size: 16px;
           }
         }
-        &__secure{
-          h2{
+
+        &__secure {
+          h2 {
             font-size: 16px;
           }
         }
-        &__pdf{
-          h2{
+
+        &__pdf {
+          h2 {
             font-size: 16px;
           }
         }
-        &__csv{
-          h2{
+
+        &__csv {
+          h2 {
             font-size: 16px;
           }
         }
@@ -756,6 +828,7 @@
     }
   }
 }
+
 @media (max-width: 576px) {
   #stay {
     .stay {
@@ -886,116 +959,13 @@
       }
     }
   }
-  #hero {
-    .hero {
-      &__hamburger {
-        &__menu {
-          @import url(https://fonts.googleapis.com/css?family=Raleway);
-
-        .menu {
-          display: flex;
-          flex-direction: row;
-          list-style-type: none;
-          margin: 0;
-          padding: 0;
-        }
-
-          .menu > li {
-            margin: 0 1rem;
-            overflow: hidden;
-          }
-
-
-          #menu-toggle {
-            display: none;
-          }
-
-          .menu-button,
-          .menu-button::before,
-          .menu-button::after {
-            display: block;
-            background-color: #fff;
-            position: absolute;
-            height: 4px;
-            width: 30px;
-            transition: transform 400ms cubic-bezier(0.23, 1, 0.32, 1);
-            border-radius: 2px;
-          }
-
-          .menu-button::before {
-            content: '';
-            margin-top: -8px;
-          }
-
-          .menu-button::after {
-            content: '';
-            margin-top: 8px;
-          }
-
-          #menu-toggle:checked + .menu-button-container .menu-button::before {
-            margin-top: 0;
-            transform: rotate(405deg);
-          }
-
-          #menu-toggle:checked + .menu-button-container .menu-button {
-            background: rgba(255, 255, 255, 0);
-          }
-
-          #menu-toggle:checked + .menu-button-container .menu-button::after {
-            margin-top: 0;
-            transform: rotate(-405deg);
-          }
-
-          @media (max-width: 700px) {
-            .menu-button-container {
-              display: flex;
-            }
-            .menu {
-              position: absolute;
-              top: 0;
-              margin-top: 50px;
-              left: 0;
-              flex-direction: column;
-              width: 100%;
-              justify-content: center;
-              align-items: center;
-            }
-            #menu-toggle ~ .menu li {
-              height: 0;
-              margin: 0;
-              padding: 0;
-              border: 0;
-              transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);
-            }
-            #menu-toggle:checked ~ .menu li {
-              border: 1px solid #333;
-              height: 2.5em;
-              padding: 0.5em;
-              transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);
-            }
-            .menu > li {
-              display: flex;
-              justify-content: center;
-              margin: 0;
-              padding: 0.5em 0;
-              width: 100%;
-              color: white;
-              background-color: rgba(68, 68, 68, 0);
-            }
-            .menu > li:not(:last-child) {
-              border-bottom: 1px solid #444;
-            }
-          }
-        }
-      }
-    }
-  }
   #feature {
     padding: 0 0 160px;
-    .feature{
-      &--more{
-        &__support{
-          &--card1{
+
+    .feature {
+      &--more {
+        &__support {
+          &--card1 {
             width: 95px;
             height: 95px;
             margin-top: 80px;
@@ -1010,8 +980,9 @@
             }
           }
         }
-        &__manage{
-          &--card2{
+
+        &__manage {
+          &--card2 {
             width: 95px;
             height: 95px;
             margin-top: 80px;
@@ -1026,8 +997,9 @@
             }
           }
         }
-        &__budget{
-          &--card3{
+
+        &__budget {
+          &--card3 {
             width: 95px;
             height: 95px;
             margin-top: 80px;
@@ -1049,6 +1021,7 @@
     .techno {
       &--servers {
         align-items: start;
+
         &__cloud {
           .icon {
             font-size: 35px;
@@ -1063,6 +1036,7 @@
             padding: 10px 0 0 0;
           }
         }
+
         &__secure {
           .icon {
             font-size: 35px;
@@ -1077,6 +1051,7 @@
             padding: 10px 0 0 0;
           }
         }
+
         &__pdf {
           .icon {
             font-size: 35px;
@@ -1086,11 +1061,13 @@
           h2 {
             font-size: 15px;
           }
+
           p {
             font-size: 10px;
             padding: 5px 0;
           }
         }
+
         &__csv {
           .icon {
             font-size: 35px;
@@ -1174,6 +1151,49 @@
   }
 }
 
+@media (max-width: 516px) {
+  #techno {
+    .techno {
+      &--servers {
+        flex-direction: column;
+        align-items: center;
+
+        &__cloud {
+          padding: 0 200px 0 0;
+
+          h2 {
+            font-size: 12px;
+          }
+        }
+
+        &__secure {
+          padding: 0 0 0 200px;
+
+          h2 {
+            font-size: 12px;
+          }
+        }
+
+        &__pdf {
+          padding: 0 200px 0 0;
+
+          h2 {
+            font-size: 12px;
+          }
+        }
+
+        &__csv {
+          padding: 0 0 0 200px;
+
+          h2 {
+            font-size: 12px;
+          }
+        }
+      }
+    }
+  }
+}
+
 @media (max-width: 450px) {
   #feature {
     padding: 20px 0 130px 0;
@@ -1187,12 +1207,12 @@
         &__support {
           &--card1 {
             padding: 15px 20px;
-            width: 70px;
+            width: 60px;
             height: 80px;
             margin-top: 65px;
 
             h1 {
-              font-size: 8px;
+              font-size: 6px;
             }
 
             p {
@@ -1209,12 +1229,12 @@
         &__manage {
           &--card2 {
             padding: 15px 20px;
-            width: 70px;
+            width: 60px;
             height: 80px;
             margin-top: 65px;
 
             h1 {
-              font-size: 8px;
+              font-size: 6px;
             }
 
             p {
@@ -1231,12 +1251,12 @@
         &__budget {
           &--card3 {
             padding: 15px 20px;
-            width: 70px;
+            width: 60px;
             height: 80px;
             margin-top: 65px;
 
             h1 {
-              font-size: 8px;
+              font-size: 6px;
             }
 
             p {
@@ -1338,20 +1358,20 @@
     }
   }
   #hero {
-       .hero {
-         &--cloud {
-         }
+    .hero {
+      &--cloud {
+      }
 
-         &--general {
-           display: none;
-         }
+      &--general {
+        display: none;
+      }
 
-         &--menu {
-           display: none;
-         }
+      &--menu {
+        display: none;
+      }
 
-       }
-     }
+    }
+  }
   #budget {
     .budget {
       &--water {
@@ -1416,6 +1436,10 @@
             height: 65px;
             margin-top: 58px;
 
+            h1 {
+              font-size: 8px;
+            }
+
             p {
               padding: 7px 0;
             }
@@ -1429,6 +1453,10 @@
             height: 65px;
             margin-top: 58px;
 
+            h1 {
+              font-size: 8px;
+            }
+
             p {
               padding: 7px 0;
             }
@@ -1441,6 +1469,10 @@
             width: 76px;
             height: 65px;
             margin-top: 58px;
+
+            h1 {
+              font-size: 8px;
+            }
 
             h1 {
               font-size: 7px;
@@ -1462,7 +1494,9 @@
     .stay {
       &--focused {
         &__cite {
-          font-size: 9px;}
+          font-size: 9px;
+        }
+
         &__saving {
           font-size: 18px;
         }
@@ -1545,82 +1579,47 @@
       }
     }
   }
-  #techno {
-    .techno {
-      &--servers {
-        &__cloud {
-          h1 {
-            font-size: 55px;
+  #feature {
+    .feature {
+      &--more {
+        flex-direction: column;
+        align-items: center;
+
+        &__support {
+          img {
+            width: 70%;
           }
 
-          .icon {
-            font-size: 23px;
-          }
-
-          h2 {
-            font-size: 10px;
-          }
-
-          h3 {
-            font-size: 7px;
-            width: 80%;
+          &--card1 {
+            width: 140px;
+            height: 50px;
+            margin-top: 122px;
           }
         }
 
-        &__secure {
-          h1 {
-            font-size: 55px;
+        &__manage {
+          padding: 80px 0;
+
+          img {
+            width: 70%;
           }
 
-          .icon {
-            font-size: 23px;
-          }
-
-          h2 {
-            font-size: 10px;
-          }
-
-          h3 {
-            font-size: 7px;
-            width: 80%;
+          &--card2 {
+            width: 140px;
+            height: 50px;
+            margin-top: 122px;
           }
         }
 
-        &__pdf {
-          h1 {
-            font-size: 55px;
+        &__budget {
+          img {
+            width: 70%;
           }
 
-          .icon {
-            font-size: 23px;
-          }
-
-          h2 {
-            font-size: 10px;
-          }
-
-          h3 {
-            font-size: 7px;
-            width: 80%;
-          }
-        }
-
-        &__csv {
-          h1 {
-            font-size: 55px;
-          }
-
-          .icon {
-            font-size: 23px;
-          }
-
-          h2 {
-            font-size: 10px;
-          }
-
-          h3 {
-            font-size: 7px;
-            width: 80%;
+          &--card3 {
+            width: 140px;
+            height: 50px;
+            margin-top: 122px;
           }
         }
       }
@@ -1664,104 +1663,16 @@
       }
     }
   }
-  #feature {
-    padding: 20px 0 90px 0;
-
-    .feature {
-      &--more {
-        flex-direction: column;
-
-        &__support {
-          img {
-            width: 70%;
-          }
-
-          &--card1 {
-            padding: 6px 5px;
-            width: 165px;
-            height: 55px;
-            margin-top: 90px;
-
-            h1 {
-              font-size: 9px;
-            }
-
-            p {
-              font-size: 8px;
-              padding: 8px 0;
-            }
-
-            a {
-              font-size: 6px;
-            }
-          }
-        }
-
-        &__manage {
-          padding: 30px 0;
-
-          img {
-            width: 70%;
-          }
-
-          &--card2 {
-            padding: 6px 5px;
-            width: 165px;
-            height: 55px;
-            margin-top: 90px;
-
-            h1 {
-              font-size: 9px;
-            }
-
-            p {
-              font-size: 8px;
-              padding: 8px 0;
-            }
-
-            a {
-              font-size: 6px;
-            }
-          }
-        }
-
-        &__budget {
-          img {
-            width: 70%;
-          }
-
-          &--card3 {
-            padding: 6px 5px;
-            width: 165px;
-            height: 55px;
-            margin-top: 90px;
-
-            h1 {
-              font-size: 9px;
-            }
-
-            p {
-              font-size: 8px;
-              padding: 8px 0;
-            }
-
-            a {
-              font-size: 6px;
-            }
-          }
-        }
-      }
-    }
-  }
   #techno {
     padding: 0 0 50px 0;
 
     .techno {
       &--servers {
         flex-direction: column;
-        align-items: center;
 
         &__cloud {
+          padding: 0 150px 0 0;
+
           h1 {
             font-size: 70px;
           }
@@ -1781,7 +1692,7 @@
         }
 
         &__secure {
-          padding: 30px 0;
+          padding: 0 0 0 150px;
 
           h1 {
             font-size: 70px;
@@ -1802,7 +1713,7 @@
         }
 
         &__pdf {
-          padding: 0 0 30px 0;
+          padding: 0 150px 0 0;
 
           h1 {
             font-size: 70px;
@@ -1823,6 +1734,8 @@
         }
 
         &__csv {
+          padding: 0 0 0 150px;
+
           h1 {
             font-size: 70px;
           }
@@ -1843,31 +1756,34 @@
       }
     }
   }
-  #project{
-    .project{
-      &--budget{
-        &__circle{
+  #project {
+    .project {
+      &--budget {
+        &__circle {
           font-size: 30px;
         }
-        &__pro{
+
+        &__pro {
           margin: 33px 0;
           font-size: 12px;
         }
       }
     }
   }
-  #budget{
-    .budget{
-      &--use{
-        &__dox{
+  #budget {
+    .budget {
+      &--use {
+        &__dox {
           font-size: 10px;
         }
       }
-      &--water{
-        ion-icon{
+
+      &--water {
+        ion-icon {
           width: 47px;
           margin: 0 -26px;
         }
+
         img {
           width: 259px;
         }
