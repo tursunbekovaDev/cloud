@@ -520,12 +520,6 @@
   #stay .stay--focused .swiper {
     width: 35%;
   }
-  #contact .contact--help__request--btn {
-    margin: 0 0 0 100px;
-  }
-  #contact .contact--money__belows {
-    width: 100%;
-  }
   #contact .contact {
     flex-direction: column;
     display: flex;
@@ -534,17 +528,23 @@
   #contact .contact--money__below {
     font-size: 30px;
   }
+  #contact .contact--money__belows {
+    width: 100%;
+  }
+  #contact .contact--help__request--btn {
+    margin: 0 0 0 100px;
+  }
   #contact .contact--help__request--inputs {
-    width: 372px;
-    height: 44px;
+    width: 370px;
+    height: 25px;
     font-size: 15px;
     margin: 2px 0 20px 0;
   }
   #contact .contact--help__request--own__input {
-    width: 168px;
-    height: 41px;
+    width: 145px;
+    height: 25px;
     font-size: 15px;
-    margin: 0 0 20px 0;
+    margin: 10px 0 20px 0;
   }
   #software .software--cloub {
     font-size: 12px;
@@ -655,22 +655,105 @@
   #hero .hero {
     padding: 25px 0 0 0;
   }
-  #hero .hero--general img {
-    width: 20px;
+  #hero .hero__hamburger__menu .menu {
+    display: flex;
   }
-  #hero .hero--general__btn {
-    width: 56px;
-    height: 26px;
-    margin: 0 -5px;
+  #hero .hero__hamburger__menu .menu > li {
+    margin: 0 1rem;
+    overflow: hidden;
   }
+  #hero .hero__hamburger__menu #menu-toggle {
+    display: none;
+  }
+  #hero .hero__hamburger__menu .menu-button,
+  #hero .hero__hamburger__menu .menu-button::before,
+  #hero .hero__hamburger__menu .menu-button::after {
+    display: block;
+    background-color: #fff;
+    position: absolute;
+    height: 4px;
+    width: 30px;
+    transition: transform 400ms cubic-bezier(0.23, 1, 0.32, 1);
+    border-radius: 2px;
+  }
+  #hero .hero__hamburger__menu .menu-button::before {
+    content: "";
+    margin-top: -8px;
+  }
+  #hero .hero__hamburger__menu .menu-button::after {
+    content: "";
+    margin-top: 8px;
+  }
+  #hero .hero__hamburger__menu #menu-toggle:checked + .menu-button-container .menu-button::before {
+    margin-top: 0;
+    transform: rotate(405deg);
+  }
+  #hero .hero__hamburger__menu #menu-toggle:checked + .menu-button-container .menu-button {
+    background: rgba(255, 255, 255, 0);
+  }
+  #hero .hero__hamburger__menu #menu-toggle:checked + .menu-button-container .menu-button::after {
+    margin-top: 0;
+    transform: rotate(-405deg);
+  }
+}
+@media (max-width: 576px) and (max-width: 700px) {
+  #hero .hero__hamburger__menu .menu-button-container {
+    display: flex;
+  }
+  #hero .hero__hamburger__menu .menu {
+    position: absolute;
+    top: 0;
+    margin-top: 50px;
+    left: 0;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+  #hero .hero__hamburger__menu #menu-toggle ~ .menu li {
+    height: 0;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);
+  }
+  #hero .hero__hamburger__menu #menu-toggle:checked ~ .menu li {
+    border: 1px solid #333;
+    height: 2.5em;
+    padding: 0.5em;
+    transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);
+  }
+  #hero .hero__hamburger__menu .menu > li {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0.5em 0;
+    width: 100%;
+    color: white;
+    background-color: rgb(218, 116, 116);
+  }
+  #hero .hero__hamburger__menu .menu > li:not(:last-child) {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.81);
+  }
+}
+@media (max-width: 576px) {
+  #hero .hero--general {
+    display: none;
+  }
+}
+@media (max-width: 576px) {
   #hero .hero--menu {
     width: 70%;
     font-size: 9px;
   }
+}
+@media (max-width: 576px) {
   #hero .hero--cloud {
     width: 25%;
     font-size: 11px;
   }
+}
+@media (max-width: 576px) {
   #budget .budget--use__dox {
     font-size: 7px;
     width: 95%;
@@ -688,6 +771,8 @@
     width: 178px;
     height: 158px;
   }
+}
+@media (max-width: 576px) {
   #project .project--budget__circle {
     font-size: 50px;
   }
@@ -909,6 +994,16 @@
   #feature .feature--more__budget--card3 p {
     padding: 7px 0;
   }
+  #contact .contact--help__request--btn {
+    margin: 0 0 0 55px;
+    height: 40px;
+  }
+  #contact .contact--help__request--own__input {
+    width: 100px;
+  }
+  #contact .contact--help__request--inputs {
+    width: 259px;
+  }
 }
 @media (max-width: 380px) {
   #stay .stay--focused__cite {
@@ -944,27 +1039,6 @@
   #software .software--cloub {
     font-size: 9px;
     padding: 5px 12px;
-  }
-  #contact .contact--money__below {
-    font-size: 25px;
-  }
-  #contact .contact--money__belows {
-    font-size: 13px;
-  }
-  #contact .contact--help__request--own__input {
-    width: 130px;
-    height: 41px;
-    font-size: 12px;
-  }
-  #contact .contact--help__request--inputs {
-    width: 292px;
-    height: 38px;
-    font-size: 12px;
-  }
-  #contact .contact--help__request--btn {
-    width: 145px;
-    height: 44px;
-    margin: 0 0 0 74px;
   }
   #feature .feature--more {
     flex-direction: column;
@@ -1009,9 +1083,6 @@
   }
 }
 @media (max-width: 320px) {
-  #contact .contact--help__request--inputs {
-    width: 300px;
-  }
   #techno {
     padding: 0 0 50px 0;
   }
