@@ -14,29 +14,22 @@
 <header id="hero">
     <div class="container">
         <div class="hero">
-            <div class="hamburger-menu">
-                <input id="menu__toggle" type="checkbox"/>
-                <label class="menu__btn" for="menu__toggle">
-                    <span></span>
-                </label>
-                <ul class="menu__box">
-                    <li><a class="menu__item" href="#">OVERVIEW</a></li>
-                    <li><a class="menu__item" href="#"> FEATURES</a></li>
-                    <li><a class="menu__item" href="#">TECHNOLOGY</a></li>
-                    <li><a class="menu__item" href="#">CONTACT</a></li>
-                    <li><a class="menu__item" href="#">Sign up</a></li>
-                </ul>
-            </div>
             <div class="hero--cloud">
-                <ion-icon name="cloud-outline"></ion-icon>
-                <h2>CloudBudget</h2>
-            </div>
-            <div class="hero--menu">
-                <a href="">OVERVIEW </a>
-                <a href=""> FEATURES</a>
-                <a href="">TECHNOLOGY</a>
-                <a href="">CONTACT</a>
-                <a href=""> Sign up</a>
+            <ion-icon name="cloud-outline"></ion-icon>
+            <h2>CloudBudget</h2>
+        </div>
+            <div class="hero__hamburger__menu"><input id="menu-toggle" type="checkbox"/>
+                <label class="menu-button-container" for="menu-toggle">
+                    <div class="menu-button"></div>
+                </label>
+                <ul class="menu">
+                    <li>OVERVIEW</li>
+                    <li>FEATURES</li>
+                    <li>TECHNOLOGY</li>
+                    <li>CONTACT</li>
+                    <li>Sign up</li>
+                </ul>
+
             </div>
             <div class="hero--general">
                 <img class="" src="./img/Frame%201.svg" alt="">
@@ -187,17 +180,17 @@
                 <div class="contact--help__request">
                     <div class="contact--help__request--own">
                         <label>
-                            <input class="contact--help__request--own__input" type="text" placeholder="     First Name">
+                            <input class="contact--help__request--own__input" type="text" placeholder="First Name">
                         </label>
                         <label>
-                            <input class="contact--help__request--own__input" type="text" placeholder="      Last Name">
+                            <input class="contact--help__request--own__input" type="text" placeholder="Last Name">
                         </label>
                     </div>
                     <label>
-                        <input class="contact--help__request--inputs" type="text" placeholder="     Phone Number">
+                        <input class="contact--help__request--inputs" type="text" placeholder="Phone Number">
                     </label>
                     <label>
-                        <input class="contact--help__request--inputs" type="text" placeholder="     Select Service">
+                        <input class="contact--help__request--inputs" type="text" placeholder="Select Service">
                     </label>
                     <button class="contact--help__request--btn">SUBMIT NOW</button>
                 </div>
